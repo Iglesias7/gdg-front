@@ -1,0 +1,61 @@
+@import "src/styles/color";
+@import "src/styles/settings";
+
+.body {
+  font-family: -apple-system;
+}
+
+.body>div {
+  height: 100vh;
+}
+
+.begin {
+  background-color: #ffffff !important;
+  font-weight: bolder;
+  @include flex-center-align;
+  font-family: -apple-system;
+  text-align: center;
+  color: #0d1b2a;
+}
+
+button {
+  background-color: #0d1b2a;
+}
+
+.middle {
+  background-color:  #cfe2f3ff;
+  margin-top: -25px;
+  font-family: '-apple-system', monospace;
+  padding: 50px;
+
+  h1 {
+    text-align: center;
+  }
+
+  .video {
+    @include flex-center-align;
+  }
+
+  video {
+    width: 800px;
+  }
+}
+
+.end {
+  background-color: chocolate;
+
+  .video {
+    @include flex-center-align;
+  }
+
+  .map {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}

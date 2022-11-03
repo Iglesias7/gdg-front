@@ -1,0 +1,19 @@
+@import "src/styles/color";
+@import "src/styles/settings";
+
+main {
+  height: 400vh;
+  padding: 50px;
+}
+
+.buttons {
+  @include flex-center-align;
+  margin: 0 0 40px 0;
+  align-items: flex-start;
+
+  button {
+    background-color: darkred;
+    margin: auto 20px auto 20px;
+    width: 100px;
+  }
+}

@@ -1,0 +1,10 @@
+<main>
+  <div class="buttons">
+    <button mat-raised-button [ngStyle]="{'background-color': show1? 'darkgreen': 'darkred'}" (click)="showOne()">SAMEDI</button>
+    <button mat-raised-button [ngStyle]="{'background-color': show2? 'darkgreen': 'darkred'}" (click)="showTwo()">DIMANCHE</button>
+  </div>
+
+  <app-first *ngIf="show1"></app-first>
+  <app-second *ngIf="show2"></app-second>
+
+</main>
