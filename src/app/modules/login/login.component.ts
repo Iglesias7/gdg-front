@@ -81,7 +81,7 @@ export class LoginComponent implements OnInit {
     if(!this.form.invalid)
       this.authenticationService.authenticate(data.email, data.password).subscribe(() => {
           if (this.authenticationService.currentUser) {
-            this.router.navigate(['/shools']);
+            this.router.navigate(['/shedules']);
           }
         },
         (error: { error: { errors: any; }; }) => {

@@ -5,7 +5,7 @@ import { ErrorService } from './error.service';
 import { AuthenticationService } from './authentication.service';
 import { AuthGuardService } from './auth-guard.service';
 import { TicketService } from "./ticket.service";
-import {StudentService} from "./student.service";
+import {UserService} from "./user.service";
 import {UtilsService} from "./utils.service";
 
 @NgModule({
@@ -18,7 +18,8 @@ import {UtilsService} from "./utils.service";
     AuthenticationService,
     ErrorService,
     TicketService,
-    UtilsService
+    UtilsService,
+    UserService
   ],
   declarations: []
 })

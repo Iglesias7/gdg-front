@@ -1,0 +1,89 @@
+<div class="body">
+  <mat-card>
+    <form id="form" class="form" [formGroup]="form" novalidate>
+      <h2>Ajouter un speaker</h2>
+      <div class="form" >
+        <mat-tab-group mat-stretch-tabs dynamicHeight>
+          <mat-tab label="Informations personnelles">
+            <mat-form-field appearance="outline">
+              <mat-label>Prénon(s)</mat-label>
+              <input matInput placeholder="Prénom" formControlName="firstname" required>
+              <mat-error class="field-error" *ngIf="form.get('firstname').hasError('required')">Required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+              <mat-label>Nom(s)</mat-label>
+              <input matInput placeholder="Nom" formControlName="username" required>
+              <mat-error class="field-error" *ngIf="form.get('username').hasError('required')">Required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+              <mat-label>Votre adresse email</mat-label>
+              <input matInput placeholder="Votre adresse email" formControlName="email" required>
+              <mat-error class="field-error" *ngIf="form.get('email').hasError('required')">Required</mat-error>
+            </mat-form-field>
+          </mat-tab>
+
+          <mat-tab label="Adresse">
+            <mat-form-field appearance="outline">
+              <mat-label>Ville</mat-label>
+              <input matInput placeholder="Ville" formControlName="city" required>
+              <mat-error class="field-error" *ngIf="form.get('city').hasError('required')">Required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+              <mat-label>Pays</mat-label>
+              <input matInput placeholder="Pays" formControlName="country" required>
+              <mat-error class="field-error" *ngIf="form.get('country').hasError('required')">Required</mat-error>
+            </mat-form-field>
+          </mat-tab>
+
+          <mat-tab label="Informations professionnelles">
+            <mat-form-field appearance="outline">
+              <mat-label>Entreprise</mat-label>
+              <input matInput placeholder="Entreprise" formControlName="company" required>
+              <mat-error class="field-error" *ngIf="form.get('company').hasError('required')">Required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+              <mat-label>Position en entreprise</mat-label>
+              <input matInput placeholder="Position en entreprise" formControlName="companyPosition" required>
+              <mat-error class="field-error" *ngIf="form.get('companyPosition').hasError('required')">Required</mat-error>
+            </mat-form-field>
+          </mat-tab>
+
+          <mat-tab label="Photo de profil">
+            <div class="picture-container">
+              <img class="img-responsive" [src]="picturePath" width="200">
+              <input type="file" (change)="fileChange($event)" placeholder="Upload file" accept=".png,.jpg,.gif">
+            </div>
+          </mat-tab>
+
+          <mat-tab label="Liens">
+            <mat-form-field appearance="outline">
+              <mat-label>Twitter</mat-label>
+              <input matInput placeholder="Twitter" formControlName="twitter" required>
+              <mat-error class="field-error" *ngIf="form.get('twitter').hasError('required')">Required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+              <mat-label>Linkedln</mat-label>
+              <input matInput placeholder="Linkedln" formControlName="linkedln" required>
+              <mat-error class="field-error" *ngIf="form.get('linkedln').hasError('required')">Required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+              <mat-label>Github</mat-label>
+              <input matInput placeholder="Github" formControlName="github" required>
+              <mat-error class="field-error" *ngIf="form.get('github').hasError('required')">Required</mat-error>
+            </mat-form-field>
+          </mat-tab>
+        </mat-tab-group>
+      </div>
+
+      <button type="submit" mat-stroked-button form="form"
+              [disabled]="form.invalid"
+              (click)="update()">Envoyer</button>
+    </form>
+  </mat-card>
+</div>

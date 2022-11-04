@@ -1,5 +1,5 @@
 
-export class Level {
+export class Link {
   id!: number;
   title!: string;
   uaas!: any[];

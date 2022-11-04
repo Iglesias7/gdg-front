@@ -2,18 +2,18 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {map, share, flatMap, catchError} from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
-import {Student} from "../models/student";
+import {User} from "../models/user";
 import {of} from "rxjs";
 import {TranslateService} from "@ngx-translate/core";
 
 @Injectable()
 export class AuthenticationService {
 
-  public currentUser: Student | null ;
+  public currentUser: User | null ;
 
   constructor(private http: HttpClient, private translator: TranslateService) {
     const data = JSON.parse(sessionStorage.getItem('currentUser') || '{}');
-    this.currentUser = data.id != undefined ? new Student(data) : null;
+    this.currentUser = data.id != undefined ? new User(data) : null;
   }
 
   authenticate(email: string, password: string): any {
@@ -22,15 +22,16 @@ export class AuthenticationService {
       email,
       password
     }).pipe(
-      map(user => {
-        const student = new Student(user);
-        this.login(student);
-        return student;
+      map(users => {
+        const user = new User(users);
+        console.log("user")
+        this.login(user);
+        return user;
       })
     ).pipe(share());
   }
 
-  storeToken(user: Student): void {
+  storeToken(user: User): void {
     sessionStorage.setItem('currentUser', JSON.stringify(user));
     this.currentUser = user;
   }
@@ -50,41 +51,43 @@ export class AuthenticationService {
     return false;
   }
 
-  login(student: Student): void {
-    if (student.token) {
-      this.storeToken(student);
+  login(user: User): void {
+    console.log("2")
+    if (user.token) {
+      console.log(user.token)
+      this.storeToken(user);
     }
   }
 
   public findByEmail(email: string) {
-    const student = new Student({email});
-    return this.http.post<Student>(`${environment.baseUrl}/students/find/email`, student).pipe(
+    const user = new User({email});
+    return this.http.post<User>(`${environment.baseUrl}/users/find/email`, user).pipe(
       map(data => {
-        return new Student(data);
+        return new User(data);
       }),
       catchError(err => of(null))
     );
   }
 
   public findByEmailAndPassword(email: string, password:string) {
-    const student = new Student({email, password});
-    return this.http.post<Student>(`${environment.baseUrl}/students/find/password`, student).pipe(
+    const user = new User({email, password});
+    return this.http.post<User>(`${environment.baseUrl}/users/find/password`, user).pipe(
       map(data => {
-        return new Student(data);
+        return new User(data);
       }),
       catchError(err => of(null))
     );
   }
 
-  public create(student: any) {
+  public create(user: any) {
     const data = {
-      username: student.username,
-      firstname: student.firstname,
-      email: student.email,
-      password: student.password
+      username: user.username,
+      firstname: user.firstname,
+      email: user.email,
+      password: user.password
     };
-    return this.http.post(`${environment.baseUrl}`, data, {headers: {'Content-Type': 'application/json'}}).pipe(
-      flatMap(res => this.authenticate(student.email, student.password))
+    return this.http.post(`${environment.baseUrl}/users`, data, {headers: {'Content-Type': 'application/json'}}).pipe(
+      flatMap(res => this.authenticate(user.email, user.password))
     );
   }
 

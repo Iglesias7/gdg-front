@@ -3,10 +3,7 @@ import { NavigationEnd, Router } from '@angular/router';
 import { AuthenticationService } from '../../services/authentication.service';
 
 const activatedMenuItems = {
-  'tableau-bord': ['home'],
-  'shools': ['shools'],
-  'uaas': ['uaas'],
-  'students': ['students']
+  'add-speaker': ['add-speaker'],
 };
 
 @Component({

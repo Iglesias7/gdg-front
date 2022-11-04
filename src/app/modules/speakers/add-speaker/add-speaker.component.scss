@@ -1,0 +1,43 @@
+@import "src/styles/color";
+@import "src/styles/settings";
+
+.body {
+  @include flex-center-align;
+  align-items: flex-start;
+  height: 100vh;
+  background-image: url("../../../../assets/gdg-bg.jpg");
+  background-size: cover;
+  color: $color_first;
+}
+
+mat-card {
+  width: 80%;
+  margin-top: 20px;
+  padding: 10px;
+  opacity: 0.9;
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+form {
+  color: $color_first;
+}
+
+.icon {
+  color: $color_first;
+}
+
+form mat-form-field {
+  width: 100%;
+}
+
+button {
+  text-align: center;
+  width: 100%;
+}
+
+
+

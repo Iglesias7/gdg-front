@@ -1,14 +1,17 @@
 
-export class Student {
+export class User {
   id!: number;
   username!: string;
   firstname!: string;
   email!: string;
-  lastLoginDate!: string;
   password!: string;
+  company!: string;
+  companyPosition!: string;
+  twitter!: string;
+  linkedln!: string;
+  github!: string;
   token!: string;
-  conect!: boolean;
-  admin!: boolean;
+  role!: boolean;
 
   constructor(data: any) {
     if (data) {
@@ -16,11 +19,14 @@ export class Student {
       this.username = data.username;
       this.firstname = data.firstname;
       this.email = data.email;
-      this.lastLoginDate = data.lastLoginDate;
       this.password = data.password;
       this.token = data.token;
-      this.conect = data.conect;
-      this.admin = data.admin;
+      this.role = data.role;
+      this.company = data.company;
+      this.companyPosition = data.companyPosition;
+      this.twitter = data.twitter;
+      this.linkedln = data.linkedln;
+      this.github = data.github;
     }
   }
 }

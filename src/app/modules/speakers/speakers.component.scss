@@ -1,0 +1,26 @@
+.images {
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+}
+
+h2 {
+  width: 50vw;
+  text-align: center;
+}
+
+.img-border-radius {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.img-clip-path {
+  height: 200px;
+}
+
+.img-rectangle{
+  clip-path:ellipse(33% 50%);
+}
+.img-carree{
+  clip-path:ellipse(50% 50%);
+}

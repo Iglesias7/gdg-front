@@ -2,27 +2,22 @@ export const locale = {
   PAGE_TITLES: {
     HOME: 'Acceuil',
     SITE_NAME: 'GDG-MONS',
-    TABLEAU_DE_BORD: 'Tableau de bord',
-    SHOOL: 'Ecoles',
+    ADD_SPEAKER: 'Ajouter un speaker',
+    SPEAKERS: 'Speakers',
     ADD_TICKET: 'Billets',
-    SHEDULE: 'Shedule',
+    SHEDULES: 'Shedules',
     LOGIN: 'Login',
-    UAA: 'Matières',
-    ADD_SHOOL: 'Ajouter une école',
-    ADD_STUDENT: 'Ajouter un étudiant',
-    ADD_LEVEL: 'Ajouter une classe',
-    ADD_UAA: 'Ajouter une Uaa'
+    ADD_TEAM: 'Ajouter une classe',
+    TEAMS: 'Teams'
   },
   MENU: {
     SITE_NAME: 'GDG-MONS',
-    TABLEAU_DE_BORD: 'Tableau de bord',
+    ADD_SPEAKER: 'Ajouter un speaker',
     ADD_TICKET: 'Billets',
-    SHEDULE: 'Shedule',
+    SHEDULES: 'Shedules',
     LOGIN: 'Connexion',
-    UAA: 'Matières',
-    ADD_SHOOL: 'Ajouter une école',
-    ADD_STUDENT: 'Ajouter un étudiant',
-    ADD_LEVEL: 'Ajouter une classe',
-    ADD_UAA: 'Ajouter une Uaa'
+    SPEAKERS: 'Speakers',
+    ADD_TEAM: 'Ajouter une classe',
+    TEAMS: 'Teams'
   }
 };

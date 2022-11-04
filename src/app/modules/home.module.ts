@@ -16,6 +16,8 @@ import {DetailsCardComponent} from "./shedule/card/details-card/details-card.com
 import {SmallCardComponent} from "./shedule/card/small-card/small-card.component";
 import {FirstComponent} from "./shedule/first/first.component";
 import {SecondComponent} from "./shedule/second/second.component";
+import {AddSpeakerComponent} from "./speakers/add-speaker/add-speaker.component";
+import {SpeakersComponent} from "./speakers/speakers.component";
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import {SecondComponent} from "./shedule/second/second.component";
     DetailsCardComponent,
     SmallCardComponent,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    AddSpeakerComponent,
+    SpeakersComponent
   ],
   imports: [
     HomeRoutingModule,

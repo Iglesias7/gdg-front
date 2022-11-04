@@ -54,3 +54,8 @@ body {
 .mat-progress-spinner circle, .mat-spinner circle {
   stroke: #0dbab0;
 }
+
+.menu-actif {
+  background-color: darkblue;
+  color: white !important;
+}
