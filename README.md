@@ -12,6 +12,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
+### To update package.json
+npm i -g npm-check-updates
+ncu -u
+npm install
+
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
