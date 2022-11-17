@@ -4,7 +4,7 @@ import {UserService} from "../../core/services/user.service";
 import {User} from "../../core/models/user";
 
 @Component({
-  selector: 'app-speakers',
+  selector: 'app-partners',
   templateUrl: './speakers.component.html',
   styleUrls: ['./speakers.component.scss']
 })
@@ -14,12 +14,14 @@ export class SpeakersComponent {
   speakers: User[] | any;
 
   constructor(
-    private userService: UserService
+    private userService: UserService,
   ) {
-    this.userService.findAll().subscribe(datas => {
-      console.log(datas)
-      this.speakers = datas;
-    })
+    this.speakers = this.userService.findAll();
+  }
+
+  getpicturePath(tempPicturePath:any): string {
+    console.log(tempPicturePath)
+    return tempPicturePath;
   }
 
 }

@@ -1,0 +1,30 @@
+@import "src/styles/color";
+@import "src/styles/settings";
+
+h1 {
+  text-align: center;
+
+  @media only screen and (max-width: 1060px) {
+    font-size: 25px !important;
+  }
+}
+
+.body {
+  @include flex-center-align;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.img-clip-path {
+  width: 75%;
+  height: 100px;
+}
+
+mat-card {
+  width: 20%;
+  min-width: 200px;
+  margin: 10px;
+  padding: 0;
+  height: 100px;
+}

@@ -109,7 +109,7 @@ export class AddSpeakerComponent {
     this.userService.create(data).subscribe(() => {
       this.utilsService.snackBarSuccess(`Vous avez ajouter un speaker avec succès.`);
       this.form.reset();
-      this.router.navigate(['/speakers']);
+      this.router.navigate(['/partners']);
     });
   }
 }

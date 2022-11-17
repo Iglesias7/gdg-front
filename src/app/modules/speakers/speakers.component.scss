@@ -1,26 +1,79 @@
-.images {
-  display: flex;
-  justify-content: space-around;
-  width: 50vw;
-}
+@import "src/styles/color";
+@import "src/styles/settings";
 
-h2 {
-  width: 50vw;
+h1 {
   text-align: center;
+
+  @media only screen and (max-width: 1060px) {
+    font-size: 25px !important;
+  }
 }
 
-.img-border-radius {
-  height: 200px;
-  border-radius: 50%;
+.body {
+  @include flex-center-align;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+span {
+  text-transform: capitalize;
+  font-weight: bolder;
 }
 
 .img-clip-path {
+  width: 100%;
   height: 200px;
 }
 
-.img-rectangle{
-  clip-path:ellipse(33% 50%);
-}
 .img-carree{
-  clip-path:ellipse(50% 50%);
+  //clip-path:ellipse(70% 70%);
+}
+
+img {
+  //border-radius: 50%;
+}
+
+mat-card {
+  width: 20%;
+  min-width: 200px;
+  margin: 10px;
+  padding: 0;
+  height: 200px;
+}
+
+.mat-card-content {
+  background-color: #cfe2f3ff;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  opacity: 0.7;
+  height: 15px;
+  width: 93%;
+  padding: 10px;
+
+  .description {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1060px) {
+    width: 90%;
+  }
+
+  @media screen and (min-width: 1060px) and (max-width: 1250px) {
+    width: 92%;
+  }
+}
+
+.mat-card-content:hover {
+  transition: height 1s , background-color 2s,color 2s;
+  background-color: white;
+  color: darkred;
+  cursor: pointer;
+  height: 35px;
+
+  .description {
+    display: block;
+    font-size: 12px;
+  }
 }

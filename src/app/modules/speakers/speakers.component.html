@@ -1,5 +1,11 @@
-<div class="images">
-  <img class="img-rectangle img-clip-path" src="https://i.ibb.co/xGcP3D3/image-shiba-rectangulaire.jpg">
+<h1>LES SPEAKERS DE L'EVENEMENT</h1>
+<div class="body">
+    <mat-card *ngFor="let speaker of speakers">
+      <img class="img-carree img-clip-path" [src]="getpicturePath(speaker.picturePath)">
 
-  <img class="img-carree img-clip-path" src="https://i.ibb.co/jfxB4YM/image-shiba-carr-e.jpg">
+    <div class="mat-card-content">
+      <span class="name">{{speaker.firstname + " " + speaker.username}}</span>
+      <span class="description">{{speaker.companyPosition + " @ " + speaker.company}}</span>
+    </div>
+  </mat-card>
 </div>

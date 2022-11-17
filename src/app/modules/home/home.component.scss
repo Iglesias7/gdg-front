@@ -2,25 +2,56 @@
 @import "src/styles/settings";
 
 .body {
-  font-family: -apple-system;
+  //font-family: -apple-system;
 }
 
 .body>div {
   height: 100vh;
+
+  @media only screen and (max-width: 1050px) {
+    height: 60vh;
+  }
 }
 
 .begin {
   background-color: #ffffff !important;
   font-weight: bolder;
-  @include flex-center-align;
-  font-family: -apple-system;
+  font-size: 20px;
+  display: flex;
+  //flex-direction: row;
+  //flex-wrap: wrap;
+  //margin-top: 80px;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: #0d1b2a;
+
+  p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  img {
+    width: 85%;
+
+    @media only screen and (max-width: 1050px) {
+      width: 60%;
+    }
+  }
+
+  button {
+    background-color: #0d1b2a;
+    width: 250px;
+    font-size: 20px;
+    height: 50px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 15px;
+  }
 }
 
-button {
-  background-color: #0d1b2a;
-}
+
 
 .middle {
   background-color:  #cfe2f3ff;
@@ -37,7 +68,15 @@ button {
   }
 
   video {
-    width: 800px;
+    width: 85%;
+
+    @media only screen and (max-width: 662px) {
+      width: 100%;
+    }
+
+    @media screen and (min-width: 662px) and (max-width: 1050px) {
+      width: 60%;
+    }
   }
 }
 

@@ -1,31 +1,13 @@
 @import "src/styles/color";
 @import "src/styles/settings";
 
-
-.line {
+p {
+  align-items: center;
+  justify-content: center;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  //align-items: center;
-  margin-top: 8px;
-
-  .heure {
-    width: 5%;
-  }
 }
 
-.line-in {
-  display: flex !important;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 95% !important;
-  //margin-top: 8px;
-
-  app-small-card {
-    width: 32% !important;
-    text-align: center;
-    color: white;
-    font-weight: bolder;
-    margin-right: 8px;
-  }
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
 }

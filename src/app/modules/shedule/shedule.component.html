@@ -1,10 +1,73 @@
 <main>
-  <div class="buttons">
-    <button mat-raised-button [ngStyle]="{'background-color': show1? 'darkgreen': 'darkred'}" (click)="showOne()">SAMEDI</button>
-    <button mat-raised-button [ngStyle]="{'background-color': show2? 'darkgreen': 'darkred'}" (click)="showTwo()">DIMANCHE</button>
+  <!--open-->
+<!--  <app-card [height]="'20px'" [showHead]="false" [description1]="'MOBILE AND WEB DEV'"-->
+<!--            [description2]="'CLOUD TECHNOLOGIES'" [description3]="'MIOT SECURITY'"></app-card>-->
+
+  <div class="line">
+    <span class="hour"></span>
+    <span class="card">
+      <app-card class="app"></app-card>
+      <app-card class="app"></app-card>
+      <app-card class="app"></app-card>
+    </span>
   </div>
 
-  <app-first *ngIf="show1"></app-first>
-  <app-second *ngIf="show2"></app-second>
+  <div class="line">
+    <span class="hour">9H00</span>
+    <span class="card">
+      <app-card class="app1"></app-card>
+    </span>
+  </div>
+
+  <div class="line">
+    <span class="hour">9H25</span>
+    <span class="card">
+      <app-card class="app1"></app-card>
+    </span>
+  </div>
+
+  <div class="line">
+    <span class="hour">9H40</span>
+    <span class="card">
+      <app-card class="app1"></app-card>
+    </span>
+  </div>
+
+<!--  <div class="line">-->
+<!--    <span class="hour">10H20</span>-->
+
+<!--  </div>-->
+
+  <div class="line">
+    <span class="hour">10H30</span>
+    <span class="card">
+      <div class="app2">
+        <app-card [height]="'255px'" ></app-card>
+      </div>
+      <div class="app2">
+        <app-card [background]="'green'" class="app3" style="margin-bottom: 10px !important;"></app-card>
+        <app-card style="margin-bottom: 10px"></app-card>
+        <app-card [background]="'green'" style="margin-bottom: 10px"></app-card>
+        <app-card style="margin-bottom: 10px"></app-card>
+        <app-card [background]="'green'" style="margin-bottom: 10px"></app-card>
+        <app-card style="margin-bottom: 10px"></app-card>
+      </div>
+      <div class="app2">
+        <app-card [background]="'green'" class="app3" style="margin-bottom: 10px !important;"></app-card>
+        <app-card style="margin-bottom: 10px"></app-card>
+        <app-card [background]="'green'" style="margin-bottom: 10px"></app-card>
+        <app-card style="margin-bottom: 10px"></app-card>
+        <app-card [background]="'green'" style="margin-bottom: 10px"></app-card>
+        <app-card style="margin-bottom: 10px"></app-card>
+      </div>
+    </span>
+  </div>
+
+  <div class="line">
+    <span class="hour">12H30</span>
+    <span class="card">
+      <app-card class="app1"></app-card>
+    </span>
+  </div>
 
 </main>

@@ -10,7 +10,9 @@ export class SheduleComponent {
  show1 = true;
  show2 = false;
 
-  constructor() {}
+  constructor() {
+
+  }
 
   showOne() {
     this.show1 = true;
@@ -21,5 +23,4 @@ export class SheduleComponent {
     this.show2 = true;
     this.show1 = false;
   }
-
 }

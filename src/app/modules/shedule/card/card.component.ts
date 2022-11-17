@@ -7,11 +7,9 @@ import {Component, Input} from '@angular/core';
 })
 
 export class CardComponent {
-  @Input() description1: any;
-  @Input() description2: any;
-  @Input() description3: any;
+  @Input() description: any;
+  @Input() background = 'skyblue';
   @Input() height: any;
-  @Input() heure: any;
   @Input() showHead: any;
 
   constructor() {}

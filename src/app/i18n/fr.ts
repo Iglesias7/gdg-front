@@ -6,6 +6,7 @@ export const locale = {
     SPEAKERS: 'Speakers',
     ADD_TICKET: 'Billets',
     SHEDULES: 'Shedules',
+    PARTNERS: 'Partners',
     LOGIN: 'Login',
     ADD_TEAM: 'Ajouter une classe',
     TEAMS: 'Teams'
@@ -13,11 +14,13 @@ export const locale = {
   MENU: {
     SITE_NAME: 'GDG-MONS',
     ADD_SPEAKER: 'Ajouter un speaker',
-    ADD_TICKET: 'Billets',
+    TICKETS: 'Billets',
     SHEDULES: 'Shedules',
+    PARTNERS: 'Partners',
     LOGIN: 'Connexion',
     SPEAKERS: 'Speakers',
     ADD_TEAM: 'Ajouter une classe',
+    HOME: 'Accueil',
     TEAMS: 'Teams'
   }
 };

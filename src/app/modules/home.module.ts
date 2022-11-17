@@ -11,13 +11,12 @@ import {AddTicketComponent} from "./tickets/add-ticket/add-ticket.component";
 import {SheduleComponent} from "./shedule/shedule.component";
 import {LoginComponent} from "./login/login.component";
 import {CardComponent} from "./shedule/card/card.component";
-import {SmallComponent} from "./shedule/small/small.component";
 import {DetailsCardComponent} from "./shedule/card/details-card/details-card.component";
-import {SmallCardComponent} from "./shedule/card/small-card/small-card.component";
-import {FirstComponent} from "./shedule/first/first.component";
-import {SecondComponent} from "./shedule/second/second.component";
 import {AddSpeakerComponent} from "./speakers/add-speaker/add-speaker.component";
 import {SpeakersComponent} from "./speakers/speakers.component";
+import {PartnersComponent} from "./partners/partners.component";
+import {MySheduleComponent} from "./shedule/my-shedule/my-shedule.component";
+import {ScheduleDayComponent} from "./shedule/shedule-day/shedule-day.component";
 
 @NgModule({
   declarations: [
@@ -26,13 +25,12 @@ import {SpeakersComponent} from "./speakers/speakers.component";
     SheduleComponent,
     LoginComponent,
     CardComponent,
-    SmallComponent,
     DetailsCardComponent,
-    SmallCardComponent,
-    FirstComponent,
-    SecondComponent,
     AddSpeakerComponent,
-    SpeakersComponent
+    SpeakersComponent,
+    PartnersComponent,
+    MySheduleComponent,
+    ScheduleDayComponent
   ],
   imports: [
     HomeRoutingModule,

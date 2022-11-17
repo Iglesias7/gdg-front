@@ -1,0 +1,6 @@
+<h1>NOS PARTENAIRES</h1>
+<div class="body">
+  <mat-card *ngFor="let partner of partners">
+    <img class="img-carree img-clip-path" [src]="getpicturePath(partner.picturePath)">
+  </mat-card>
+</div>
