@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { HomeRoutingModule } from './home.routing.module';
-import { WidgetModule } from 'src/app/core/widgets/widget.module';
+// import { WidgetModule } from 'src/app/core/widgets/widget.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import {TimeAgoPipe} from 'time-ago-pipe';
 import { AngularEditorModule } from '@kolkov/angular-editor';
@@ -15,8 +15,8 @@ import {DetailsCardComponent} from "./shedule/card/details-card/details-card.com
 import {AddSpeakerComponent} from "./speakers/add-speaker/add-speaker.component";
 import {SpeakersComponent} from "./speakers/speakers.component";
 import {PartnersComponent} from "./partners/partners.component";
-import {MySheduleComponent} from "./shedule/my-shedule/my-shedule.component";
-import {ScheduleDayComponent} from "./shedule/shedule-day/shedule-day.component";
+// import {MySheduleComponent} from "./shedule/my-shedule/my-shedule.component";
+// import {ScheduleDayComponent} from "./shedule/shedule-day/shedule-day.component";
 
 @NgModule({
   declarations: [
