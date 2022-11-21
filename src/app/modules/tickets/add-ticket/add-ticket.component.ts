@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { FormBuilder } from '@angular/forms';
 import { Validators } from '@angular/forms';
+import {ActivatedRoute, Router} from "@angular/router";
 import {TicketService} from "../../../core/services/ticket.service";
 import {UtilsService} from "../../../core/services/utils.service";
-import {ActivatedRoute, Router} from "@angular/router";
 
 export interface PeriodicElement {
   name: string;

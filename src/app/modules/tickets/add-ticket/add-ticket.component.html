@@ -1,30 +1,30 @@
-<div class="body">
-  <mat-card>
-    <form id="form" class="form" [formGroup]="form" novalidate>
-      <h2>Je m'inscris</h2>
-      <div class="form" >
-        <mat-form-field appearance="outline">
-          <mat-label>Votre prénom</mat-label>
-          <input matInput placeholder="Votre prénom" formControlName="firstName" required>
-          <mat-error class="field-error" *ngIf="form.get('firstName').hasError('required')">Required</mat-error>
-        </mat-form-field>
+<!--<div class="body">-->
+<!--  <mat-card>-->
+<!--    <form id="form" class="form" [formGroup]="form" novalidate>-->
+<!--      <h2>Je m'inscris</h2>-->
+<!--      <div class="form" >-->
+<!--        <mat-form-field appearance="outline">-->
+<!--          <mat-label>Votre prénom</mat-label>-->
+<!--          <input matInput placeholder="Votre prénom" formControlName="firstName" required>-->
+<!--          <mat-error class="field-error" *ngIf="form.get('firstName').hasError('required')">Required</mat-error>-->
+<!--        </mat-form-field>-->
 
-        <mat-form-field appearance="outline">
-          <mat-label>Votre nom</mat-label>
-          <input matInput placeholder="Votre nom" formControlName="lastName" required>
-          <mat-error class="field-error" *ngIf="form.get('lastName').hasError('required')">Required</mat-error>
-        </mat-form-field>
+<!--        <mat-form-field appearance="outline">-->
+<!--          <mat-label>Votre nom</mat-label>-->
+<!--          <input matInput placeholder="Votre nom" formControlName="lastName" required>-->
+<!--          <mat-error class="field-error" *ngIf="form.get('lastName').hasError('required')">Required</mat-error>-->
+<!--        </mat-form-field>-->
 
-        <mat-form-field appearance="outline">
-          <mat-label>Votre adresse email</mat-label>
-          <input matInput placeholder="Votre adresse email" formControlName="email" required>
-          <mat-error class="field-error" *ngIf="form.get('email').hasError('required')">Required</mat-error>
-        </mat-form-field>
-      </div>
+<!--        <mat-form-field appearance="outline">-->
+<!--          <mat-label>Votre adresse email</mat-label>-->
+<!--          <input matInput placeholder="Votre adresse email" formControlName="email" required>-->
+<!--          <mat-error class="field-error" *ngIf="form.get('email').hasError('required')">Required</mat-error>-->
+<!--        </mat-form-field>-->
+<!--      </div>-->
 
-      <button type="submit" mat-stroked-button form="form"
-              [disabled]="form.invalid"
-              (click)="update()">Envoyer</button>
-    </form>
-  </mat-card>
-</div>
+<!--      <button type="submit" mat-stroked-button form="form"-->
+<!--              [disabled]="form.invalid"-->
+<!--              (click)="update()">Envoyer</button>-->
+<!--    </form>-->
+<!--  </mat-card>-->
+<!--</div>-->

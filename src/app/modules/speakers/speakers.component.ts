@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import {UserService} from "../../core/services/user.service";
 import {User} from "../../core/models/user";
+// import {UserService} from "../../core/services/user.service";
+// import {User} from "../../core/models/user";
 
 @Component({
   selector: 'app-partners',
@@ -16,7 +18,7 @@ export class SpeakersComponent {
   constructor(
     private userService: UserService,
   ) {
-    this.speakers = this.userService.findAll();
+    this.speakers = this.userService.findAllSpeakers();
   }
 
   getpicturePath(tempPicturePath:any): string {

@@ -12,6 +12,10 @@ import {HomeModule} from "./modules/home.module";
 // import {MenuComponent} from "./core/widgets/menu/menu.component";
 import {TranslateModule} from "@ngx-translate/core";
 import {HashLocationStrategy, LocationStrategy} from "@angular/common";
+import {CoreModule} from "./core/core.module";
+import {WidgetModule} from "./core/widgets/widget.module";
+import {JwtInterceptor} from "./core/interceptors/auth.interceptor";
+import {MenuComponent} from "./core/widgets/menu/menu.component";
 
 @NgModule({
   declarations: [

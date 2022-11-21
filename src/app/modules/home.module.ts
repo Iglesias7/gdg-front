@@ -15,6 +15,7 @@ import {DetailsCardComponent} from "./shedule/card/details-card/details-card.com
 import {AddSpeakerComponent} from "./speakers/add-speaker/add-speaker.component";
 import {SpeakersComponent} from "./speakers/speakers.component";
 import {PartnersComponent} from "./partners/partners.component";
+import {WidgetModule} from "../core/widgets/widget.module";
 // import {MySheduleComponent} from "./shedule/my-shedule/my-shedule.component";
 // import {ScheduleDayComponent} from "./shedule/shedule-day/shedule-day.component";
 
@@ -29,8 +30,8 @@ import {PartnersComponent} from "./partners/partners.component";
     AddSpeakerComponent,
     SpeakersComponent,
     PartnersComponent,
-    MySheduleComponent,
-    ScheduleDayComponent
+    // MySheduleComponent,
+    // ScheduleDayComponent
   ],
   imports: [
     HomeRoutingModule,

@@ -1,10 +1,11 @@
 import { Component, ChangeDetectorRef, OnInit, OnDestroy } from '@angular/core';
-import {AuthenticationService} from './core/services/authentication.service';
+// import {AuthenticationService} from './core/services/authentication.service';
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { MediaMatcher } from '@angular/cdk/layout';
 import { TranslateService } from '@ngx-translate/core';
 import { locale } from './i18n/fr';
+import {AuthenticationService} from "./core/services/authentication.service";
 
 @Component({
   selector: 'app-root',

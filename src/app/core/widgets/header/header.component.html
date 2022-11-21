@@ -1,0 +1,44 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <div fxFill fxLayout="row" fxLayoutAlign="space-around center" class="header">
+      <div fxFlex fxLayout="row" fxLayoutAlign="start center" class="men">
+        <span *ngIf="currentUser" class="app-menu-link right" (click)="inputSideNav.toggle()">
+          <mat-icon >menu</mat-icon>
+        </span>
+
+        <span class="app-menu-link log" [routerLink]='["/"]'>
+          <img width="100" src="assets/logo/logo.png">
+        </span>
+
+         <span class="app-menu-link app-men" [routerLink]='["/"]'>
+            Home
+         </span>
+
+        <span class="app-menu-link app-men" [ngClass]="{'menu-actif':isActiveItemMenu('shedules')}" [routerLink]='["/shedules"]'>
+          Schedule
+        </span>
+
+        <span class="app-menu-link app-men" [routerLink]='["/speakers"]' [ngClass]="{'menu-actif':isActiveItemMenu('shedules')}">
+          Speakers
+        </span>
+
+         <span class="app-menu-link app-men" [routerLink]='["/teams"]' [ngClass]="{'menu-actif':isActiveItemMenu('shedules')}">
+          Team
+        </span>
+
+        <span class="app-menu-link app-men" [routerLink]='["/partners"]' [ngClass]="{'menu-actif':isActiveItemMenu('shedules')}">
+          Partners
+        </span>
+
+        <span class="app-menu-link app-men" [ngClass]="{'menu-actif':isActiveItemMenu('add-ticket')}">
+          <a target="_blank" class="app-menu-link1"
+             href="https://www.billetweb.fr/devfest-mons-2022">Tickets</a>
+        </span>
+
+        <span class="app-menu-link app-men" >
+          <img width="35" src="assets/flags/en.png">
+        </span>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

@@ -24,6 +24,7 @@
     "@firebase/rules-unit-testing": "^2.0.5",
     "@kolkov/angular-editor": "^2.1.0",
     "@material/form-field": "^14.0.0",
+    "@mui/material": "^5.10.14",
     "@ngrx/store": "^14.3.2",
     "@ngtools/webpack": "^15.0.0",
     "@ngx-translate/core": "^14.0.0",
