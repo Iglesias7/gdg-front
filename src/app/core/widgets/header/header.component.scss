@@ -34,6 +34,12 @@ mat-toolbar {
     color: $color_first !important;
   }
 
+  .app-men {
+    @media only screen and (max-width: 1100px) {
+      display: none;
+    }
+  }
+
   .app-men:hover {
     border-bottom: 2px solid darkred;
   }
@@ -43,6 +49,10 @@ mat-toolbar {
     top: 0.5rem;
     left: 7.5rem;
     z-index: 1999;
+
+    @media only screen and (max-width: 1100px) {
+      display: none;
+    }
   }
 }
 
@@ -57,6 +67,10 @@ mat-toolbar {
   position: absolute;
   left: 0.5rem;
   z-index: 1999;
+
+  @media only screen and (min-width: 1100px) {
+    display: none;
+  }
 }
 
 mat-toolbar-row {

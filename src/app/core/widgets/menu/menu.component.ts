@@ -4,6 +4,11 @@ import { AuthenticationService } from '../../services/authentication.service';
 
 const activatedMenuItems = {
   'add-speaker': ['add-speaker'],
+  'home': ['home'],
+  'shedules': ['shedules'],
+  'speakers': ['speakers'],
+  'teams': ['teams'],
+  'partners': ['partners'],
 };
 
 @Component({

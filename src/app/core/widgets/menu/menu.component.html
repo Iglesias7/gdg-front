@@ -1,8 +1,41 @@
 <mat-nav-list>
+  <span class="app-menu-link log" [routerLink]='["/"]'>
+    <img width="100" src="assets/logo/logo.png">
+  </span>
+
   <a mat-list-item
-     [routerLink]="['/add-speaker']"
-     [ngClass]="{'menu-actif':isActiveItemMenu('add-speaker')}"
-  >
-    {{ 'MENU.ADD_SPEAKER' | translate }}
+     [routerLink]="['/']"
+     [ngClass]="{'menu-actif':isActiveItemMenu('home')}">
+    {{ 'MENU.HOME' | translate }}
+  </a>
+
+  <a mat-list-item
+     [routerLink]="['/shedules']"
+     [ngClass]="{'menu-actif':isActiveItemMenu('shedules')}">
+    {{ 'MENU.SHEDULES' | translate }}
+  </a>
+
+  <a mat-list-item
+     [routerLink]="['/speakers']"
+     [ngClass]="{'menu-actif':isActiveItemMenu('speakers')}">
+    {{ 'MENU.SPEAKERS' | translate }}
+  </a>
+
+  <a mat-list-item
+     [routerLink]="['/teams']"
+     [ngClass]="{'menu-actif':isActiveItemMenu('teams')}">
+    {{ 'MENU.TEAMS' | translate }}
+  </a>
+
+  <a mat-list-item
+     [routerLink]="['/partners']"
+     [ngClass]="{'menu-actif':isActiveItemMenu('partners')}">
+    {{ 'MENU.PARTNERS' | translate }}
+  </a>
+
+  <a mat-list-item
+     target="_blank"
+     href="https://www.billetweb.fr/devfest-mons-2022">
+    {{ 'MENU.TICKETS' | translate }}
   </a>
 </mat-nav-list>

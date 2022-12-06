@@ -11,7 +11,13 @@ export class CardComponent {
   @Input() background = 'skyblue';
   @Input() height: any;
   @Input() showHead: any;
+  @Input() isTrackOne: any;
+  @Input() isTrackTwo: any;
+  @Input() isTrackTree: any;
+  @Input() card: any;
 
-  constructor() {}
+  constructor() {
+    console.log(this.background)
+  }
 
 }

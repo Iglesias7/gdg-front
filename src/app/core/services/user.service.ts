@@ -5,6 +5,9 @@ import { environment } from 'src/environments/environment';
 import {User} from "../models/user";
 import { speakers } from '../../../assets/datas/speakers';
 import { partners } from '../../../assets/datas/partners';
+import { cards } from '../../../assets/datas/cards';
+import { hours } from '../../../assets/datas/hours';
+import { organisers } from '../../../assets/datas/organisers';
 import {Observable, of} from "rxjs";
 
 @Injectable()
@@ -17,8 +20,20 @@ export class UserService {
     return speakers.users;
   }
 
+  public findAllTeams() {
+    return organisers.organisers;
+  }
+
   public findAllPartners() {
     return partners.partners;
+  }
+
+  public findAllCards() {
+    return cards.cards;
+  }
+
+  public findAllHours() {
+    return hours.hours;
   }
 
   public findAll() {

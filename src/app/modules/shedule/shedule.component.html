@@ -1,73 +1,239 @@
+<div class="header">
+  <h1>Shedule</h1>
+  <p>
+    Hear from the Googlers, Partners, and Guest Speakers who are building the future of <br>
+    cloud. Check back often as we add more speakers, including our customers and <br>
+    partners.
+  </p>
+</div>
 <main>
-  <!--open-->
-<!--  <app-card [height]="'20px'" [showHead]="false" [description1]="'MOBILE AND WEB DEV'"-->
-<!--            [description2]="'CLOUD TECHNOLOGIES'" [description3]="'MIOT SECURITY'"></app-card>-->
+  <div class="body">
+    <div class="hours">
+      <div *ngFor="let hour of hours" [ngStyle]="{'height': hour.height}" >{{hour.time}}</div>
+    </div>
 
-  <div class="line">
-    <span class="hour"></span>
-    <span class="card">
-      <app-card class="app"></app-card>
-      <app-card class="app"></app-card>
-      <app-card class="app"></app-card>
-    </span>
-  </div>
-
-  <div class="line">
-    <span class="hour">9H00</span>
-    <span class="card">
-      <app-card class="app1"></app-card>
-    </span>
-  </div>
-
-  <div class="line">
-    <span class="hour">9H25</span>
-    <span class="card">
-      <app-card class="app1"></app-card>
-    </span>
-  </div>
-
-  <div class="line">
-    <span class="hour">9H40</span>
-    <span class="card">
-      <app-card class="app1"></app-card>
-    </span>
-  </div>
-
-<!--  <div class="line">-->
-<!--    <span class="hour">10H20</span>-->
-
-<!--  </div>-->
-
-  <div class="line">
-    <span class="hour">10H30</span>
-    <span class="card">
-      <div class="app2">
-        <app-card [height]="'255px'" ></app-card>
+    <div class="shedule">
+      <div class="head">
+       <app-card class="head-card" *ngFor="let card of cards" [height]="card.height" [card]="card" [description]="card.description" [background]="card.color"></app-card>
       </div>
-      <div class="app2">
-        <app-card [background]="'green'" class="app3" style="margin-bottom: 10px !important;"></app-card>
-        <app-card style="margin-bottom: 10px"></app-card>
-        <app-card [background]="'green'" style="margin-bottom: 10px"></app-card>
-        <app-card style="margin-bottom: 10px"></app-card>
-        <app-card [background]="'green'" style="margin-bottom: 10px"></app-card>
-        <app-card style="margin-bottom: 10px"></app-card>
-      </div>
-      <div class="app2">
-        <app-card [background]="'green'" class="app3" style="margin-bottom: 10px !important;"></app-card>
-        <app-card style="margin-bottom: 10px"></app-card>
-        <app-card [background]="'green'" style="margin-bottom: 10px"></app-card>
-        <app-card style="margin-bottom: 10px"></app-card>
-        <app-card [background]="'green'" style="margin-bottom: 10px"></app-card>
-        <app-card style="margin-bottom: 10px"></app-card>
-      </div>
-    </span>
-  </div>
 
-  <div class="line">
-    <span class="hour">12H30</span>
-    <span class="card">
-      <app-card class="app1"></app-card>
-    </span>
-  </div>
+      <div>
+        <app-card *ngFor="let card of cards1" [height]="card.height" [card]="card" [description]="card.description" [background]="card.color"></app-card>
+      </div>
 
+      <div class="body1">
+        <div class="body1-left">
+          <app-card [description]="allCards[7]!.description"
+                    [isTrackOne]="allCards[7].isTrackOne"
+                    [isTrackTwo]="allCards[7].isTrackTwo"
+                    [height]="allCards[7].height"
+                    [card]="allCards[7]"
+                    [background]="allCards[7].color"
+                    [isTrackTree]="allCards[7].isTrackTree"></app-card>
+        </div>
+
+        <div class="body1-right">
+          <div class="body1-right1">
+            <app-card *ngFor="let card of cardsright1" [description]="card.description"
+                      [isTrackOne]="card.isTrackOne"
+                      [isTrackTwo]="card.isTrackTwo"
+                      [background]="card.color"
+                      [height]="card.height"
+                      [card]="card"
+                      [isTrackTree]="card.isTrackTree"></app-card>
+          </div>
+
+          <app-card [description]="allCards[14]!.description"
+                    [isTrackOne]="allCards[14].isTrackOne"
+                    [isTrackTwo]="allCards[14].isTrackTwo"
+                    [background]="allCards[14].color"
+                    [height]="allCards[14].height"
+                    [card]="allCards[14]"
+                    [isTrackTree]="allCards[14].isTrackTree"></app-card>
+
+          <div class="body1-right1">
+            <app-card *ngFor="let card of cardsright2" [description]="card.description"
+                      [isTrackOne]="card.isTrackOne"
+                      [isTrackTwo]="card.isTrackTwo"
+                      [background]="card.color"
+                      [card]="card"
+                      [height]="card.height"
+                      [isTrackTree]="card.isTrackTree"></app-card>
+          </div>
+
+          <app-card [description]="allCards[15]!.description"
+                    [isTrackOne]="allCards[15].isTrackOne"
+                    [isTrackTwo]="allCards[15].isTrackTwo"
+                    [background]="allCards[15].color"
+                    [height]="allCards[15].height"
+                    [card]="allCards[15]"
+                    [isTrackTree]="allCards[15].isTrackTree"></app-card>
+
+          <div class="body1-right1">
+            <app-card *ngFor="let card of cardsright3" [description]="card.description"
+                      [isTrackOne]="card.isTrackOne"
+                      [isTrackTwo]="card.isTrackTwo"
+                      [background]="card.color"
+                      [card]="card"
+                      [height]="card.height"
+                      [isTrackTree]="card.isTrackTree"></app-card>
+          </div>
+        </div>
+      </div>
+      <app-card [description]="allCards[16]!.description"
+                [isTrackOne]="allCards[16].isTrackOne"
+                [isTrackTwo]="allCards[16].isTrackTwo"
+                [background]="allCards[16].color"
+                [card]="allCards[16]"
+                [height]="allCards[16].height"
+                [isTrackTree]="allCards[16].isTrackTree"></app-card>
+      <div class="body1">
+        <div  class="body1-left">
+          <app-card *ngFor="let card of cardsright4" [description]="card.description"
+                    [isTrackOne]="card.isTrackOne"
+                    [isTrackTwo]="card.isTrackTwo"
+                    [background]="card.color"
+                    [card]="card"
+                    [height]="card.height"
+                    [isTrackTree]="card.isTrackTree"></app-card>
+        </div>
+
+        <div  class="body1-right">
+          <div class="body1-right1">
+            <app-card *ngFor="let card of cardsright5" [description]="card.description"
+                      [isTrackOne]="card.isTrackOne"
+                      [isTrackTwo]="card.isTrackTwo"
+                      [background]="card.color"
+                      [card]="card"
+                      [height]="card.height"
+                      [isTrackTree]="card.isTrackTree"></app-card>
+          </div>
+
+          <app-card [description]="allCards[25]!.description"
+                    [isTrackOne]="allCards[25].isTrackOne"
+                    [isTrackTwo]="allCards[25].isTrackTwo"
+                    [background]="allCards[25].color"
+                    [card]="allCards[25]"
+                    [height]="allCards[25].height"
+                    [isTrackTree]="allCards[25].isTrackTree"></app-card>
+
+          <div class="body1-right1">
+            <app-card *ngFor="let card of cardsright6" [description]="card.description"
+                      [isTrackOne]="card.isTrackOne"
+                      [isTrackTwo]="card.isTrackTwo"
+                      [background]="card.color"
+                      [card]="card"
+                      [height]="card.height"
+                      [isTrackTree]="card.isTrackTree"></app-card>
+          </div>
+        </div>
+      </div>
+      <app-card [description]="allCards[22]!.description"
+                [isTrackOne]="allCards[22].isTrackOne"
+                [isTrackTwo]="allCards[22].isTrackTwo"
+                [background]="allCards[22].color"
+                [card]="allCards[22]"
+                [height]="allCards[22].height"
+                [isTrackTree]="allCards[22].isTrackTree"></app-card>
+
+      <div  class="body1">
+        <div class="body1-left">
+          <app-card *ngFor="let card of cardsright7" [description]="card.description"
+                    [isTrackOne]="card.isTrackOne"
+                    [isTrackTwo]="card.isTrackTwo"
+                    [background]="card.color"
+                    [card]="card"
+                    [height]="card.height"
+                    [isTrackTree]="card.isTrackTree"></app-card>
+        </div>
+
+        <div  class="body1-right">
+          <div class="body1-right1">
+            <app-card *ngFor="let card of cardsright8" [description]="card.description"
+                      [isTrackOne]="card.isTrackOne"
+                      [isTrackTwo]="card.isTrackTwo"
+                      [background]="card.color"
+                      [card]="card"
+                      [height]="card.height"
+                      [isTrackTree]="card.isTrackTree"></app-card>
+          </div>
+
+          <app-card [description]="allCards[33]!.description"
+                    [isTrackOne]="allCards[33].isTrackOne"
+                    [isTrackTwo]="allCards[33].isTrackTwo"
+                    [background]="allCards[33].color"
+                    [card]="allCards[33]"
+                    [height]="allCards[33].height"
+                    [isTrackTree]="allCards[33].isTrackTree"></app-card>
+
+          <div class="body1-right1">
+            <app-card *ngFor="let card of cardsright9" [description]="card.description"
+                      [isTrackOne]="card.isTrackOne"
+                      [isTrackTwo]="card.isTrackTwo"
+                      [background]="card.color"
+                      [card]="card"
+                      [height]="card.height"
+                      [isTrackTree]="card.isTrackTree"></app-card>
+          </div>
+
+          <app-card [description]="allCards[36]!.description"
+                    [isTrackOne]="allCards[36].isTrackOne"
+                    [isTrackTwo]="allCards[36].isTrackTwo"
+                    [background]="allCards[36].color"
+                    [card]="allCards[36]"
+                    [height]="allCards[36].height"
+                    [isTrackTree]="allCards[36].isTrackTree"></app-card>
+
+          <div class="body1-right1">
+            <app-card *ngFor="let card of cardsright10" [description]="card.description"
+                      [isTrackOne]="card.isTrackOne"
+                      [isTrackTwo]="card.isTrackTwo"
+                      [background]="card.color"
+                      [card]="card"
+                      [height]="card.height"
+                      [isTrackTree]="card.isTrackTree"></app-card>
+          </div>
+
+          <app-card [description]="allCards[39]!.description"
+                    [isTrackOne]="allCards[39].isTrackOne"
+                    [isTrackTwo]="allCards[39].isTrackTwo"
+                    [background]="allCards[39].color"
+                    [card]="allCards[39]"
+                    [height]="allCards[39].height"
+                    [isTrackTree]="allCards[39].isTrackTree"></app-card>
+          <div class="body1-right1">
+            <app-card [description]="allCards[40]!.description"
+                      [isTrackOne]="allCards[40].isTrackOne"
+                      [isTrackTwo]="allCards[40].isTrackTwo"
+                      [background]="allCards[40].color"
+                      [card]="allCards[40]"
+                      [height]="allCards[40].height"
+                      [isTrackTree]="allCards[40].isTrackTree"></app-card>
+            <app-card [description]="allCards[43]!.description"
+                      [isTrackOne]="allCards[43].isTrackOne"
+                      [isTrackTwo]="allCards[43].isTrackTwo"
+                      [background]="allCards[43].color"
+                      [card]="allCards[43]"
+                      [height]="allCards[43].height"
+                      [isTrackTree]="allCards[43].isTrackTree"></app-card>
+          </div>
+        </div>
+      </div>
+      <app-card [description]="allCards[41]!.description"
+                [isTrackOne]="allCards[41].isTrackOne"
+                [isTrackTwo]="allCards[41].isTrackTwo"
+                [background]="allCards[41].color"
+                [card]="allCards[41]"
+                [height]="allCards[41].height"
+                [isTrackTree]="allCards[41].isTrackTree"></app-card>
+
+      <app-card [description]="allCards[42]!.description"
+                [isTrackOne]="allCards[42].isTrackOne"
+                [isTrackTwo]="allCards[42].isTrackTwo"
+                [background]="allCards[42].color"
+                [card]="allCards[42]"
+                [height]="allCards[42].height"
+                [isTrackTree]="allCards[42].isTrackTree"></app-card>
+    </div>
+  </div>
 </main>

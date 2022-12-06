@@ -1,0 +1,56 @@
+@import "src/styles/color";
+@import "src/styles/settings";
+
+main {
+  padding: 80px;
+}
+
+img {
+  clip-path:ellipse(50% 50%);
+  width: 55px;
+  margin-right: 16px;
+  background-color: var(--secondary-background-color);
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translateZ(0);
+}
+
+
+.body {
+  color: black;
+  font-weight: bolder;
+}
+
+.profiles {
+  //@include flex-center-align;
+
+  padding: 3px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.profile-user {
+  background-color: #bdbdbd;
+  //@include flex-center-align;
+  padding: 8px;
+  margin: 10px;
+
+  display: flex;
+  align-items: center;
+  width: 30%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
+
+.profile-time {
+  padding: 8px;
+  margin: 10px;
+
+  display: flex;
+  align-items: center;
+  width: 30%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}

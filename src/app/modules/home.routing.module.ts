@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'add-speaker', component: AddSpeakerComponent , data: { title: 'PAGE_TITLES.ADD_TICKET' }},
   { path: 'shedules', component: SheduleComponent , data: { title: 'PAGE_TITLES.SHEDULES' }},
   { path: 'speakers', component: SpeakersComponent , data: { title: 'PAGE_TITLES.SPEAKERS' }},
+  { path: 'teams', component: SpeakersComponent , data: { title: 'PAGE_TITLES.TEAMS' }},
   { path: 'partners', component: PartnersComponent , data: { title: 'PAGE_TITLES.PARTNERS' }},
   { path: 'login', component: LoginComponent , data: { title: 'PAGE_TITLES.LOGIN' }},
   { path: 'shedule/:id', component: DetailsCardComponent , data: { title: 'PAGE_TITLES.DETAILS_SHEDULE' } },

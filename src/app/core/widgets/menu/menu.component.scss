@@ -1,6 +1,12 @@
 @import "src/styles/color";
 @import "src/styles/settings";
 
+.log {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
 .mat-nav-list {
   background-color: whitesmoke;
   height: 100%;
@@ -14,7 +20,7 @@
 }
 
 .menu-actif {
-  background-color: $color_first !important;
+  background-color: whitesmoke !important;
   color: white !important;
 }
 

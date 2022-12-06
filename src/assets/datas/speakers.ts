@@ -1,5 +1,5 @@
 export const speakers = {
-    users: [
+  users : [
     {
       "firstname": "Aleksandr",
       "username": "DENISOV",
@@ -13,7 +13,8 @@ export const speakers = {
       "email": "denisov.shureg@gmail.com",
       "twitter": "https://twitter.com/shuregdenisov",
       "linkedIn": NaN,
-      "github": "https://github.com/denisovav"
+      "github": "https://github.com/denisovav",
+      "description": "Based in Tallinn, Estonia, Aleksandr, he is GDE Estonia member and working on the Android stack core solutions that millions of European people use. Digger inside the Android platform and is always trying to understand how systems work from the inside. Part-time open source writer and conference speaker, mostly talking about Android internals and system layer."
     },
     {
       "firstname": "Nicolas",
@@ -28,7 +29,8 @@ export const speakers = {
       "email": "nicolas.frizzarin54@gmail.com",
       "twitter": "https://twitter.com/Nicooss54",
       "linkedIn": NaN,
-      "github": "https://github.com/Nicoss54"
+      "github": "https://github.com/Nicoss54",
+      "description": "Google Developer Expert in Web Technologies and OpenJs Foundation Member, Nicolas is a FontEnd specialist and user Interface Designer from Metz, France.\n\nHe works as a developer advocate and Engineering Manager at Sfeir Luxembourg. His daily mission is to help the teams to make robust, powerful and beautiful web applications\n\nBesides that, Nicolas is a speaker, and likes to contribute to the community by giving talks, trainings, writing articles or participating in open source projects"
     },
     {
       "firstname": "Adrien",
@@ -43,7 +45,8 @@ export const speakers = {
       "email": "apessu@gmail.com",
       "twitter": "https://twitter.com/adrienpessu",
       "linkedIn": NaN,
-      "github": "https://github.com/@adrienpessu"
+      "github": "https://github.com/@adrienpessu",
+      "description": "Je suis un d\u00e9veloppeur fullstack depuis 14 ans et je viens de Nantes. Je suis \u00e9galement membre organisateur et tr\u00e9sorier de l'association Blockchain & Soci\u00e9t\u00e9 : https://blockchainsociete.org/ Nous organisons des meetups autours de la blockchain et des cryptos\n\nDe nature tr\u00e8s curieux, j'adore \u00e9chang\u00e9 avec mes pairs et toujours en apprendre plus. Je trouve que je suis dans un secteur passionnant qui tend souvent au changement, c'est tr\u00e8s enrichissant intellectuellement."
     },
     {
       "firstname": "Philippe",
@@ -58,22 +61,8 @@ export const speakers = {
       "email": "philippe.didiergeorges@gmail.com",
       "twitter": NaN,
       "linkedIn": NaN,
-      "github": NaN
-    },
-    {
-      "firstname": "Xavier",
-      "username": "LESSAGE",
-      "companyPosition": "Sr Researcher (Artificial Intelligence / Cloud Computing)",
-      "company": "CETIC",
-      "GDE": "Non",
-      "Charges": "Self",
-      "picturePath": "assets/images/Xavier Lessage.jpeg",
-      "city": "Mons",
-      "country": "Belgium",
-      "email": "xavier.lessage@gmail.com",
-      "twitter": NaN,
-      "linkedIn": NaN,
-      "github": NaN
+      "github": NaN,
+      "description": ""
     },
     {
       "firstname": "Olivier",
@@ -88,37 +77,8 @@ export const speakers = {
       "email": "leplus.olivier@gmail.com",
       "twitter": "https://twitter.com/olivierleplus",
       "linkedIn": NaN,
-      "github": "https://github.com/tagazok"
-    },
-    {
-      "firstname": "Sun",
-      "username": "TAN",
-      "companyPosition": "Senior Software Engineer",
-      "company": "Red Hat",
-      "GDE": "Non",
-      "Charges": "Self",
-      "picturePath": "assets/images/Sun Tan.jpeg",
-      "city": "Paris",
-      "country": "France",
-      "email": "sunix@sunix.org",
-      "twitter": "https://twitter.com/__sunix_",
-      "linkedIn": NaN,
-      "github": "https://github.com/sunix"
-    },
-    {
-      "firstname": "Cedric",
-      "username": "GATAY",
-      "companyPosition": "Mobile and backend developer",
-      "company": "Code-Troopers",
-      "GDE": "Non",
-      "Charges": "Transport and Taxi",
-      "picturePath": "assets/images/Cedric Gatay.webp",
-      "city": "Tours",
-      "country": "France",
-      "email": "c.gatay@code-troopers.com",
-      "twitter": "https://twitter.com/Cedric_Gatay",
-      "linkedIn": NaN,
-      "github": "https://github.com/CedricGatay"
+      "github": "https://github.com/tagazok",
+      "description": "Developer Advocate at AWS and Google Developer Expert in Web Technologies. I love to share knowledge (and love) among developers and people in general."
     },
     {
       "firstname": "Gerome",
@@ -133,7 +93,8 @@ export const speakers = {
       "email": "gerome.grignon.lp2@gmail.com",
       "twitter": "https://twitter.com/GeromeGrignon",
       "linkedIn": NaN,
-      "github": "https://github.com/geromegrignon"
+      "github": "https://github.com/geromegrignon",
+      "description":""
     },
     {
       "firstname": "Neil",
@@ -148,7 +109,8 @@ export const speakers = {
       "email": "neil.gibbons64@gmail.com",
       "twitter": NaN,
       "linkedIn": NaN,
-      "github": "https://github.com/nyptop"
+      "github": "https://github.com/nyptop",
+      "description": "Neil is a Backend Engineer based in London. He works for EDITED, a platform which helps retailers make data-driven decisions. Outside of work, Neil hosts the London Tech Insider podcast, interviewing developers, academics and investors from across London\u2019s tech ecosystem. He is also an enthusiastic runner!"
     },
     {
       "firstname": "Alexander",
@@ -163,7 +125,8 @@ export const speakers = {
       "email": "implimentz@gmail.com",
       "twitter": "https://twitter.com/iamironz",
       "linkedIn": NaN,
-      "github": "https://github.com/iamironz"
+      "github": "https://github.com/iamironz",
+      "description":""
     },
     {
       "firstname": "Viktor",
@@ -178,7 +141,8 @@ export const speakers = {
       "email": "viktorlidholt@gmail.com",
       "twitter": "https://twitter.com/viktorlidholt",
       "linkedIn": NaN,
-      "github": "https://github.com/vlidholt"
+      "github": "https://github.com/vlidholt",
+      "description": "With a master's in computer science and more than 20 years of industry experience, Viktor has a solid background in software engineering. Before starting his own venture, he worked at Google\u2019s Flutter team in Silicon Valley. He has held talks and taught guest lectures on programming, app creation, and computer graphics at international conferences and universities such as MIT, Carnegie Mellon, and UC Berkeley."
     },
     {
       "firstname": "Maha",
@@ -193,7 +157,8 @@ export const speakers = {
       "email": "maha.alsayasneh@gmail.com",
       "twitter": "https://twitter.com/MahaALSayasneh",
       "linkedIn": NaN,
-      "github": NaN
+      "github": NaN,
+      "description": "I am a computer scientist with more than 10 years of experience in various fields ranging from web development to big data, including cloud\ncomputing and artificial intelligence. My experience combines technical and analytical aptitudes with problem-solving strengths to\ndrive projects to on-time and high-quality completion. \n\nI also have a Ph.D. in optimizing the performance of multi-tier distributed systems.\n\nCurrently, I am an Engineering Manager at Elastic. We are the leading platform for search-powered solutions.\n\nI love communicating and sharing knowledge  with people ;) ( I also love sports and mountains ;) )\n\nMy motto in life is LIVE + LOVE + LAUGH :)\n\n\n"
     },
     {
       "firstname": "Sylvain",
@@ -208,22 +173,8 @@ export const speakers = {
       "email": "darkweak@protonmail.com",
       "twitter": "https://twitter.com/Darkweak_dev",
       "linkedIn": NaN,
-      "github": "https://github.com/Darkweak"
-    },
-    {
-      "firstname": "Tugdual",
-      "username": "GRALL",
-      "companyPosition": "Solutions Engineer",
-      "company": "GitHub",
-      "GDE": "Non",
-      "Charges": "Self",
-      "picturePath": "assets/images/Tugdual Grall.jpeg",
-      "city": "Nantes",
-      "country": "France",
-      "email": "tugdual@gmail.com",
-      "twitter": "https://twitter.com/tgrall",
-      "linkedIn": NaN,
-      "github": "https://github.com/tgrall"
+      "github": "https://github.com/Darkweak",
+      "description": "Golang developer, creator of [Souin](https://github.com/darkweak/souin) and active contributor for [Caddy](https://github.com/caddyserver), [Tr\u00e6fik](https://github.com/traefik) and [API Platform](https://github.com/api-platform)"
     },
     {
       "firstname": "Antoine",
@@ -238,7 +189,8 @@ export const speakers = {
       "email": "awacheux.utc@gmail.com",
       "twitter": NaN,
       "linkedIn": NaN,
-      "github": "https://github.com/shiroy"
+      "github": "https://github.com/shiroy",
+      "description": "If you ask me why I got into IT, I'd say it was a natural path for me.\n\nAs a kid, I discovered it as a hobby. I wanted to be like these cool hackers in movies. I still remember my very first programming language: `QBasic`.  The internet is like a massive free university. I had so much fun learning `C`, `C++`, and `PHP`and working on tons of fun hobby projects at that time!\n\nNaturally, I've been through a computer engineering degree at UTC, Compi\u00e8gne, France. It was tough but enlightening. I had skills in different domains and this degree brought all the pieces together.\n\nMy first job as a software engineer at Bloomberg LP, London, was very challenging but it felt weird at the same time. The company, the people and the projects were awesome but I couldn't get used to professional software development. It was too different to what I used to like as a hobby. Maybe this job was not for me.\n\nIn 2018, cloud computing was trending and I had no experience with it. I joined D2SI (now Devoteam Revolve) as a junior cloud computing consultant where I worked on many different and challenging projects. As a consultant, I was the knowledgable guy. I discovered that I love teaching!\n\nFinally, I had the opportunity to join AWS in 2020 as a Solutions Architect. I discover the business world thanks to this position. It's an awesome role to hone my business and teaching skills.\n\nNow here I am! I can't wait to share what I learned with you!"
     },
     {
       "firstname": "Denis",
@@ -253,7 +205,8 @@ export const speakers = {
       "email": "denis@voituron.net",
       "twitter": NaN,
       "linkedIn": NaN,
-      "github": NaN
+      "github": NaN,
+      "description": "Aleksandr is an experienced software developer with a rich background, in IT for more than 20 years. He worked with different stacks in backend, frontend and mobile fields, but since 2018 his main interest is Flutter. Aleksandr is a Flutter and Dart GDE and Head of Flutter Discipline in EPAM Systems."
     },
     {
       "firstname": "Loic",
@@ -268,7 +221,72 @@ export const speakers = {
       "email": "loic.magnette@oniryx.be",
       "twitter": NaN,
       "linkedIn": NaN,
-      "github": NaN
-    }
+      "github": NaN,
+      "description":""
+    },
+    {
+      "firstname": "Xavier",
+      "username": "LESSAGE",
+      "companyPosition": "Sr Researcher (Artificial Intelligence / Cloud Computing)",
+      "company": "CETIC",
+      "GDE": "Non",
+      "Charges": "Self",
+      "picturePath": "assets/images/Xavier Lessage.jpeg",
+      "city": "Mons",
+      "country": "Belgium",
+      "email": "xavier.lessage@gmail.com",
+      "twitter": NaN,
+      "linkedIn": NaN,
+      "github": NaN,
+      "description":""
+    },
+    {
+      "firstname": "Cedric",
+      "username": "GATAY",
+      "companyPosition": "Mobile and backend developer",
+      "company": "Code-Troopers",
+      "GDE": "Non",
+      "Charges": "Transport and Taxi",
+      "picturePath": "assets/images/Cedric Gatay.webp",
+      "city": "Tours",
+      "country": "France",
+      "email": "c.gatay@code-troopers.com",
+      "twitter": "https://twitter.com/Cedric_Gatay",
+      "linkedIn": NaN,
+      "github": "https://github.com/CedricGatay",
+      "description":""
+    },
+    {
+      "firstname": "Sun",
+      "username": "TAN",
+      "companyPosition": "Senior Software Engineer",
+      "company": "Red Hat",
+      "GDE": "Non",
+      "Charges": "Self",
+      "picturePath": "assets/images/Sun Tan.jpeg",
+      "city": "Paris",
+      "country": "France",
+      "email": "sunix@sunix.org",
+      "twitter": "https://twitter.com/__sunix_",
+      "linkedIn": NaN,
+      "github": "https://github.com/sunix",
+      "description":""
+    },
+    {
+      "firstname": "Tugdual",
+      "username": "GRALL",
+      "companyPosition": "Solutions Engineer",
+      "company": "GitHub",
+      "GDE": "Non",
+      "Charges": "Self",
+      "picturePath": "assets/images/Tugdual Grall.jpeg",
+      "city": "Nantes",
+      "country": "France",
+      "email": "tugdual@gmail.com",
+      "twitter": "https://twitter.com/tgrall",
+      "linkedIn": NaN,
+      "github": "https://github.com/tgrall",
+      "description":""
+    },
   ]
 }

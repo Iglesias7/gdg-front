@@ -1,9 +1,9 @@
 <div class="header">
-  <h1>Speakers</h1>
+  <h1>{{title}}</h1>
   <p>
-    Hear from the Googlers, Partners, and Guest Speakers who are building the future of <br>
-    cloud. Check back often as we add more speakers, including our customers and <br>
-    partners.
+    {{description}}
+    <span *ngIf="description1"><br>{{description1}}</span><br>
+    <span *ngIf="description2">{{description2}}</span>
   </p>
 </div>
 
@@ -18,8 +18,8 @@
 
       <span class="name">{{speaker.firstname + " " + speaker.username}}</span>
       <span class="description">{{ speaker.company }}</span>
-      <p class="description">
-        {{speaker.companyPosition}}, Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.
+      <p *ngIf="speaker.companyPosition" class="description">
+        {{speaker.companyPosition + " " }}{{ speaker.description.length > 0 ? ',' : '' }}{{speaker.description | slice:0:50}}{{ speaker.description.length > 50 ? '....read more' : '' }}
       </p>
       <mat-card-footer>
         <a *ngIf="speaker.github" class="circle-link" title="github" [href]="speaker.github" target="_blank" rel="noopener">

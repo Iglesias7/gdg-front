@@ -25,11 +25,20 @@ mat-card {
   margin: 10px;
   padding: 30px;
   height: 400px;
+
+  @media only screen and (max-width: 1080px) {
+    width: 25%;
+  }
+
+  @media only screen and (max-width: 850px) {
+    width: 30%;
+  }
 }
 
 .img-clip-path {
   clip-path:ellipse(50% 50%);
   width: 120px;
+  height: 120px;
   margin-right: 16px;
   background-color: var(--secondary-background-color);
   border-radius: 50%;
@@ -48,6 +57,14 @@ mat-card {
 .name, .description {
   text-align: center;
   font-family: "Cambria Math";
+}
+
+.description {
+  flex-wrap: wrap;
+
+  @media only screen and (max-width: 850px) {
+    font-size: 15px;
+  }
 }
 
 .name {

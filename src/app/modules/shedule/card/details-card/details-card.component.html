@@ -1,0 +1,26 @@
+<main>
+  <h1>
+    {{card.description}}
+  </h1>
+
+  <p class="profile-time">
+    <mat-icon>query_builder</mat-icon>
+    Samedi: {{card.heure}}
+  </p>
+
+  <div class="body" *ngIf="card.isCard">
+    <div class="profiles" >
+      <div class="profile-user" *ngFor="let user of card.users">
+        <img width="20"  [src]="user.picturePath" [matTooltip]="user.firstname + ' ' + user.username">
+        <div>
+          <p>
+            {{ user.firstname + " " + user.username }}
+          </p>
+          <p>
+            {{ user.companyPosition }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

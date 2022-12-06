@@ -1,9 +1,29 @@
-<mat-card [ngStyle]="{'background-color': background, 'height': height}" >
-  <mat-card-header *ngIf="showHead">
-    <div mat-card-avatar class="example-header-image"></div>
-    <!--    <div style="margin-left: 20px" mat-card-avatar class="example-header-image"></div>-->
-    <mat-card-title>Shiba Inu</mat-card-title>
-    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-content><p>{{ 'description' }}</p></mat-card-content>
+<mat-card [ngStyle]="{'height':height, 'background':background, 'width':'100%'}"
+          [ngClass]="{isTrackOne:isTrackOne&&!isTrackTwo&&!isTrackTree,
+          isTrackTwo:!isTrackOne&&isTrackTwo&&!isTrackTree,
+          mat:!card.isCard,
+          isTrackTree:!isTrackOne&&!isTrackTwo&&isTrackTree,
+          isBrackOne:!isTrackOne&&isTrackTwo&&isTrackTree}"
+          [routerLink]='["/shedule/"+card.id]'>
+
+  <div class="description" *ngIf="!card.isCard">
+    {{ description }}
+    <div class="heure" >
+      <span class="name">{{card.heure }}</span>
+    </div>
+  </div>
+
+  <div class="body" *ngIf="card.isCard">
+    <div >{{ description }}</div>
+    <div class="profiles" >
+      <div class="profile-user" *ngFor="let user of card.users">
+        <img width="20"  [src]="user.picturePath" [matTooltip]="user.firstname + ' ' + user.username">
+        <span *ngIf="card.users.length == 1" class="name">{{user.firstname + " " + user.username}}</span>
+      </div>
+    </div>
+
+    <div class="heure" >
+        <span class="name">{{card.heure }}</span>
+    </div>
+  </div>
 </mat-card>

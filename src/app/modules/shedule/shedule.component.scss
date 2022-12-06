@@ -1,66 +1,92 @@
 @import "src/styles/color";
 @import "src/styles/settings";
 
+.header {
+  margin: 70px;
+}
+
+h1 {
+
+  @media only screen and (max-width: 1060px) {
+    font-size: 25px !important;
+  }
+}
+
 main {
-  height: 400vh;
+  //height: 400vh;
+  background-color: #3e2723;
+  color: white !important;
   padding: 50px;
+
+  @media only screen and (max-width: 950px) {
+    padding: 5px;
+  }
 }
 
-.line {
-  display: flex !important;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100% !important;
-  margin-top: 10px;
+.body {
+  @include flex-center-align;
+  align-items: flex-start;
+  padding: 20px;
 
-  .hour {
+  @media only screen and (max-width: 950px) {
+    padding: 5px;
+  }
+
+  .hours {
     width: 5%;
+
+    @media only screen and (max-width: 1100px) {
+      display: none;
+    }
   }
 
-  .card {
-    width: 93%;
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
-    //justify-content: center;
-
-    .app {
-      width: 30%;
-      margin-left: 10px;
-    }
-
-    .app1 {
-      width: 100%;
-      margin-left: 10px;
-    }
-
-    .app2 {
-      width: 30%;
-      margin-left: 10px;
-    }
-
-    .app3 {
-      //width: 60%;
-      margin-bottom: 100px;
-
-    }
-
-
+  .shedule {
+    width: 94%;
   }
 }
 
-.line2 {
-  display: flex !important;
-  flex-direction: row;
-  flex-wrap: wrap;
-  //justify-content: center;
-  //width: 100% !important;
-  margin-bottom: 10px;
+.head {
+  @include flex-center-align;
 
-  .app4 {
-    width: 47%;
-    margin-right: 10px;
-    //margin-left: 10px;
+  @media only screen and (max-width: 1100px) {
+    display: none;
   }
 }
+
+.head-card {
+  width: 33%;
+  margin-left: 3px;
+}
+
+.body1 {
+  display: flex;
+}
+
+.body1-left {
+  width: 33.3%;
+}
+
+.body1-right {
+  width: 66.6%;
+}
+
+.body1-right1 {
+  display: flex;
+
+  app-card {
+    width: 50%;
+    margin-left: 3px;
+  }
+}
+
+//.body2 {
+//  display: flex;
+//}
+//
+//.body2-left {
+//  width: 33.3%;
+//}
+//
+//.body2-right {
+//  width: 66.6%;
+//}
