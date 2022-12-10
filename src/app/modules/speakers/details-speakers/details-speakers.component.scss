@@ -1,0 +1,71 @@
+@import "src/styles/color";
+@import "src/styles/settings";
+
+main {
+  padding: 20px;
+}
+
+.img, .profile {
+  text-align: center;
+  font-family: "Lucida Handwriting", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+img {
+  clip-path:ellipse(50% 50%);
+  width: 200px;
+  height: 200px;
+  margin-right: 16px;
+  background-color: var(--secondary-background-color);
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translateZ(0);
+}
+
+.profile-company {
+  text-align: center;
+  font-family: "Times New Roman", Arial, sans-serif;
+  font-size: 20px;
+  color: darkred;
+}
+
+.social {
+  text-align: center;
+
+  a {
+    margin: 0 5px 0 5px;
+  }
+
+  svg {
+    background-color: blanchedalmond;
+  }
+}
+
+.cards {
+  text-align: center;
+  //width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  //align-items: center;
+
+  .card {
+    background-color: darkred;
+    color: white;
+    width: 50%;
+    margin: 5px 0 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+.description {
+  background-color: blanchedalmond;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 20px;
+}

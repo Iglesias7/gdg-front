@@ -16,6 +16,7 @@ import {AddSpeakerComponent} from "./speakers/add-speaker/add-speaker.component"
 import {SpeakersComponent} from "./speakers/speakers.component";
 import {PartnersComponent} from "./partners/partners.component";
 import {WidgetModule} from "../core/widgets/widget.module";
+import {DetailsSpeakersComponent} from "./speakers/details-speakers/details-speakers.component";
 // import {MySheduleComponent} from "./shedule/my-shedule/my-shedule.component";
 // import {ScheduleDayComponent} from "./shedule/shedule-day/shedule-day.component";
 
@@ -30,6 +31,7 @@ import {WidgetModule} from "../core/widgets/widget.module";
     AddSpeakerComponent,
     SpeakersComponent,
     PartnersComponent,
+    DetailsSpeakersComponent
     // MySheduleComponent,
     // ScheduleDayComponent
   ],

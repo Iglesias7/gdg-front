@@ -4,19 +4,19 @@ export const cards = {
     {
       "id": "0",
       "description": "Track 1",
-      "heure": false,
+      "heure": "",
       "isTrackOne": true,
       "isTrackTwo": false,
       "isTrackTree": false,
       "height": "50px",
-      "color": "skyblue",
+      "color": "#673ab7",
       "isCard": false,
       "users": []
     },
     {
       "id": "1",
       "description": "Track 2",
-      "heure": false,
+      "heure": "",
       "isTrackOne": false,
       "isTrackTwo": true,
       "isTrackTree": false,
@@ -28,7 +28,7 @@ export const cards = {
     {
       "id": "2",
       "description": "Track 3",
-      "heure": false,
+      "heure": "",
       "isTrackOne": false,
       "isTrackTwo": false,
       "isTrackTree": true,
@@ -920,7 +920,24 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
-      "users": []
+      "users": [
+        {
+          "firstname": "Cedric",
+          "username": "GATAY",
+          "companyPosition": "Mobile and backend developer",
+          "company": "Code-Troopers",
+          "GDE": "Non",
+          "Charges": "Transport and Taxi",
+          "picturePath": "assets/images/Cedric Gatay.webp",
+          "city": "Tours",
+          "country": "France",
+          "email": "c.gatay@code-troopers.com",
+          "twitter": "https://twitter.com/Cedric_Gatay",
+          "linkedIn": NaN,
+          "github": "https://github.com/CedricGatay",
+          "description":""
+        },
+      ]
     },
     {
       "id": "41",
@@ -956,7 +973,24 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
-      "users": []
+      "users": [
+        {
+          "firstname": "Renaud",
+          "username": "TARNEC",
+          "companyPosition": "Consultant",
+          "company": "Freelance",
+          "GDE": "Oui",
+          "Charges": "OK",
+          "picturePath": "assets/images/Renaud Tarnec.jpeg",
+          "city": "Brussels",
+          "country": "Belgium",
+          "email": "renaudtarnec@gmail.com",
+          "twitter": "https://twitter.com/rtarnec",
+          "linkedIn": "https://www.linkedin.com/in/renaudtarnec/",
+          "github": "",
+          "description":""
+        }
+      ]
     },
   ]
 }

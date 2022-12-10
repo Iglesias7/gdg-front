@@ -9,8 +9,10 @@
 
 <div class="body">
   <mat-grid-list cols="2" rowHeight="2:1">
-    <mat-grid-tile *ngFor="let partner of partners">
-      <img class="img-carree img-clip-path" [src]="getpicturePath(partner.picturePath)">
-    </mat-grid-tile>
+    <a *ngFor="let partner of partners" [href]="partner.link" target="_blank">
+      <mat-grid-tile>
+        <img class="img-carree img-clip-path" [src]="getpicturePath(partner.picturePath)">
+      </mat-grid-tile>
+    </a>
   </mat-grid-list>
 </div>

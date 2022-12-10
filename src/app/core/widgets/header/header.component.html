@@ -11,28 +11,28 @@
         </span>
 
          <span class="app-menu-link app-men" [routerLink]='["/"]'>
-            Home
+            {{ 'MENU.HOME' | translate }}
          </span>
 
         <span class="app-menu-link app-men" [ngClass]="{'menu-actif':isActiveItemMenu('shedules')}" [routerLink]='["/shedules"]'>
-          Schedule
+          {{ 'MENU.SHEDULES' | translate }}
         </span>
 
         <span class="app-menu-link app-men" [routerLink]='["/speakers"]' [ngClass]="{'menu-actif':isActiveItemMenu('shedules')}">
-          Speakers
+          {{ 'MENU.SPEAKERS' | translate }}
         </span>
 
          <span class="app-menu-link app-men" [routerLink]='["/teams"]' [ngClass]="{'menu-actif':isActiveItemMenu('shedules')}">
-          Team
+          {{ 'MENU.TEAMS' | translate }}
         </span>
 
         <span class="app-menu-link app-men" [routerLink]='["/partners"]' [ngClass]="{'menu-actif':isActiveItemMenu('shedules')}">
-          Partners
+          {{ 'MENU.PARTNERS' | translate }}
         </span>
 
         <span class="app-menu-link app-men" [ngClass]="{'menu-actif':isActiveItemMenu('add-ticket')}">
           <a target="_blank" class="app-menu-link1"
-             href="https://www.billetweb.fr/devfest-mons-2022">Tickets</a>
+             href="https://www.billetweb.fr/devfest-mons-2022">{{ 'MENU.TICKETS' | translate }}</a>
         </span>
 
 <!--        <span class="app-menu-link app-men" >-->

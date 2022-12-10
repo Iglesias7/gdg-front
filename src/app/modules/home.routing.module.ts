@@ -8,6 +8,7 @@ import {DetailsCardComponent} from "./shedule/card/details-card/details-card.com
 import {AddSpeakerComponent} from "./speakers/add-speaker/add-speaker.component";
 import {SpeakersComponent} from "./speakers/speakers.component";
 import {PartnersComponent} from "./partners/partners.component";
+import {DetailsSpeakersComponent} from "./speakers/details-speakers/details-speakers.component";
 
 
 const routes: Routes = [
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'partners', component: PartnersComponent , data: { title: 'PAGE_TITLES.PARTNERS' }},
   { path: 'login', component: LoginComponent , data: { title: 'PAGE_TITLES.LOGIN' }},
   { path: 'shedule/:id', component: DetailsCardComponent , data: { title: 'PAGE_TITLES.DETAILS_SHEDULE' } },
+  { path: 'speakers/:id', component: DetailsSpeakersComponent , data: { title: 'PAGE_TITLES.DETAILS_SPEAKERS' } },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

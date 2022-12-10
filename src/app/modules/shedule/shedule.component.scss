@@ -14,7 +14,7 @@ h1 {
 
 main {
   //height: 400vh;
-  background-color: #3e2723;
+  background-color: skyblue;
   color: white !important;
   padding: 50px;
 
@@ -34,6 +34,7 @@ main {
 
   .hours {
     width: 5%;
+    color: black;
 
     @media only screen and (max-width: 1100px) {
       display: none;

@@ -1,11 +1,11 @@
 export const locale = {
   PAGE_TITLES: {
-    HOME: 'Acceuil',
+    HOME: 'Home',
     SITE_NAME: 'GDG-MONS',
     ADD_SPEAKER: 'Ajouter un speaker',
     SPEAKERS: 'Speakers',
-    ADD_TICKET: 'Billets',
-    SHEDULES: 'Shedules',
+    ADD_TICKET: 'Tickets',
+    SHEDULES: 'Shedule',
     PARTNERS: 'Partners',
     LOGIN: 'Login',
     ADD_TEAM: 'Ajouter une classe',
@@ -14,13 +14,13 @@ export const locale = {
   MENU: {
     SITE_NAME: 'GDG-MONS',
     ADD_SPEAKER: 'Ajouter un speaker',
-    TICKETS: 'Billets',
-    SHEDULES: 'Shedules',
+    TICKETS: 'Tickets',
+    SHEDULES: 'Shedule',
     PARTNERS: 'Partners',
     LOGIN: 'Connexion',
     SPEAKERS: 'Speakers',
     ADD_TEAM: 'Ajouter une classe',
-    HOME: 'Accueil',
+    HOME: 'Home',
     TEAMS: 'Teams'
   }
 };

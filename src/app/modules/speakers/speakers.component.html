@@ -19,7 +19,8 @@
       <span class="name">{{speaker.firstname + " " + speaker.username}}</span>
       <span class="description">{{ speaker.company }}</span>
       <p *ngIf="speaker.companyPosition" class="description">
-        {{speaker.companyPosition + " " }}{{ speaker.description.length > 0 ? ',' : '' }}{{speaker.description | slice:0:50}}{{ speaker.description.length > 50 ? '....read more' : '' }}
+        {{speaker.companyPosition + " " }}{{ speaker.description.length > 0 ? ',' : '' }}{{speaker.description | slice:0:50}}
+        <span style="color: #1A237E; cursor: pointer" [routerLink]='["/speakers/"+speaker.id]'>{{ '....read more' }}</span>
       </p>
       <mat-card-footer>
         <a *ngIf="speaker.github" class="circle-link" title="github" [href]="speaker.github" target="_blank" rel="noopener">

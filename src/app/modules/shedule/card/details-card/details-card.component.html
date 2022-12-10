@@ -3,7 +3,7 @@
     {{card.description}}
   </h1>
 
-  <p class="profile-time">
+  <p class="profile-time" *ngIf="card.heure">
     <mat-icon>query_builder</mat-icon>
     Samedi: {{card.heure}}
   </p>
@@ -22,5 +22,9 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="description">
+    <p> {{card.description}}</p>
   </div>
 </main>

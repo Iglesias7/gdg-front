@@ -2,19 +2,28 @@ export const partners = {
   partners: [
     {
       "company": "Ville de Mons",
+      "link": "https://www.mons.be/",
       "picturePath": "assets/partners/ville de mons.png"
     },
     {
       "company": "Polytech",
+      "link": "https://web.umons.ac.be/fpms/fr/",
       "picturePath": "assets/partners/polytech.png"
     },
     {
       "company": "MIC",
-      "picturePath": "assets/partners/MIC.png"
+      "link": "https://www.mic-belgique.be/",
+      "picturePath": "assets/partners/mic.svg"
     },
     {
       "company": "Google dev",
-      "picturePath": "assets/partners/google dev.png"
+      "link": "https://developers.google.com/",
+      "picturePath": "assets/partners/googledev.png"
+    },
+    {
+      "company": "Editx",
+      "link": "https://editx.eu/en",
+      "picturePath": "assets/partners/editx.png"
     },
   ]
 }
