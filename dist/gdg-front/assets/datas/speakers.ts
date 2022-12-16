@@ -1,6 +1,7 @@
 export const speakers = {
   users : [
     {
+      "id": 1,
       "firstname": "Aleksandr",
       "username": "DENISOV",
       "companyPosition": "Chief Software Engineer",
@@ -17,6 +18,7 @@ export const speakers = {
       "description": "Based in Tallinn, Estonia, Aleksandr, he is GDE Estonia member and working on the Android stack core solutions that millions of European people use. Digger inside the Android platform and is always trying to understand how systems work from the inside. Part-time open source writer and conference speaker, mostly talking about Android internals and system layer."
     },
     {
+      "id": 2,
       "firstname": "Nicolas",
       "username": "FRIZZARIN",
       "companyPosition": "Developer Advocate && Engineering Manager",
@@ -33,6 +35,7 @@ export const speakers = {
       "description": "Google Developer Expert in Web Technologies and OpenJs Foundation Member, Nicolas is a FontEnd specialist and user Interface Designer from Metz, France.\n\nHe works as a developer advocate and Engineering Manager at Sfeir Luxembourg. His daily mission is to help the teams to make robust, powerful and beautiful web applications\n\nBesides that, Nicolas is a speaker, and likes to contribute to the community by giving talks, trainings, writing articles or participating in open source projects"
     },
     {
+      "id": 3,
       "firstname": "Adrien",
       "username": "PESSU",
       "companyPosition": "Auth0 developer advocate",
@@ -49,6 +52,7 @@ export const speakers = {
       "description": "Je suis un d\u00e9veloppeur fullstack depuis 14 ans et je viens de Nantes. Je suis \u00e9galement membre organisateur et tr\u00e9sorier de l'association Blockchain & Soci\u00e9t\u00e9 : https://blockchainsociete.org/ Nous organisons des meetups autours de la blockchain et des cryptos\n\nDe nature tr\u00e8s curieux, j'adore \u00e9chang\u00e9 avec mes pairs et toujours en apprendre plus. Je trouve que je suis dans un secteur passionnant qui tend souvent au changement, c'est tr\u00e8s enrichissant intellectuellement."
     },
     {
+      "id": 4,
       "firstname": "Philippe",
       "username": "DIDIERGEORGES",
       "companyPosition": "Founder",
@@ -65,6 +69,7 @@ export const speakers = {
       "description": ""
     },
     {
+      "id": 5,
       "firstname": "Olivier",
       "username": "LEPLUS",
       "companyPosition": "Developer Relations",
@@ -81,6 +86,7 @@ export const speakers = {
       "description": "Developer Advocate at AWS and Google Developer Expert in Web Technologies. I love to share knowledge (and love) among developers and people in general."
     },
     {
+      "id": 6,
       "firstname": "Gerome",
       "username": "GRIGNON",
       "companyPosition": "Web developer",
@@ -97,6 +103,7 @@ export const speakers = {
       "description":""
     },
     {
+      "id": 7,
       "firstname": "Neil",
       "username": "GIBBONS",
       "companyPosition": "Backend Engineer",
@@ -113,6 +120,7 @@ export const speakers = {
       "description": "Neil is a Backend Engineer based in London. He works for EDITED, a platform which helps retailers make data-driven decisions. Outside of work, Neil hosts the London Tech Insider podcast, interviewing developers, academics and investors from across London\u2019s tech ecosystem. He is also an enthusiastic runner!"
     },
     {
+      "id": 8,
       "firstname": "Alexander",
       "username": "EFREMENKOV",
       "companyPosition": "Senior Android Engineer",
@@ -129,6 +137,7 @@ export const speakers = {
       "description":""
     },
     {
+      "id": 9,
       "firstname": "Viktor",
       "username": "LIDHOLT",
       "companyPosition": "Founder",
@@ -145,6 +154,7 @@ export const speakers = {
       "description": "With a master's in computer science and more than 20 years of industry experience, Viktor has a solid background in software engineering. Before starting his own venture, he worked at Google\u2019s Flutter team in Silicon Valley. He has held talks and taught guest lectures on programming, app creation, and computer graphics at international conferences and universities such as MIT, Carnegie Mellon, and UC Berkeley."
     },
     {
+      "id": 10,
       "firstname": "Maha",
       "username": "ALSAYASNEH",
       "companyPosition": "Engineering Manager",
@@ -161,6 +171,7 @@ export const speakers = {
       "description": "I am a computer scientist with more than 10 years of experience in various fields ranging from web development to big data, including cloud\ncomputing and artificial intelligence. My experience combines technical and analytical aptitudes with problem-solving strengths to\ndrive projects to on-time and high-quality completion. \n\nI also have a Ph.D. in optimizing the performance of multi-tier distributed systems.\n\nCurrently, I am an Engineering Manager at Elastic. We are the leading platform for search-powered solutions.\n\nI love communicating and sharing knowledge  with people ;) ( I also love sports and mountains ;) )\n\nMy motto in life is LIVE + LOVE + LAUGH :)\n\n\n"
     },
     {
+      "id": 11,
       "firstname": "Sylvain",
       "username": "COMBRAQUE",
       "companyPosition": "Go Consultant  | React JS",
@@ -177,6 +188,7 @@ export const speakers = {
       "description": "Golang developer, creator of [Souin](https://github.com/darkweak/souin) and active contributor for [Caddy](https://github.com/caddyserver), [Tr\u00e6fik](https://github.com/traefik) and [API Platform](https://github.com/api-platform)"
     },
     {
+      "id": 12,
       "firstname": "Antoine",
       "username": "WACHEUX",
       "companyPosition": "Solutions architect",
@@ -193,6 +205,7 @@ export const speakers = {
       "description": "If you ask me why I got into IT, I'd say it was a natural path for me.\n\nAs a kid, I discovered it as a hobby. I wanted to be like these cool hackers in movies. I still remember my very first programming language: `QBasic`.  The internet is like a massive free university. I had so much fun learning `C`, `C++`, and `PHP`and working on tons of fun hobby projects at that time!\n\nNaturally, I've been through a computer engineering degree at UTC, Compi\u00e8gne, France. It was tough but enlightening. I had skills in different domains and this degree brought all the pieces together.\n\nMy first job as a software engineer at Bloomberg LP, London, was very challenging but it felt weird at the same time. The company, the people and the projects were awesome but I couldn't get used to professional software development. It was too different to what I used to like as a hobby. Maybe this job was not for me.\n\nIn 2018, cloud computing was trending and I had no experience with it. I joined D2SI (now Devoteam Revolve) as a junior cloud computing consultant where I worked on many different and challenging projects. As a consultant, I was the knowledgable guy. I discovered that I love teaching!\n\nFinally, I had the opportunity to join AWS in 2020 as a Solutions Architect. I discover the business world thanks to this position. It's an awesome role to hone my business and teaching skills.\n\nNow here I am! I can't wait to share what I learned with you!"
     },
     {
+      "id": 13,
       "firstname": "Denis",
       "username": "VOITURON",
       "companyPosition": ".Net Senior developer",
@@ -209,6 +222,7 @@ export const speakers = {
       "description": "Aleksandr is an experienced software developer with a rich background, in IT for more than 20 years. He worked with different stacks in backend, frontend and mobile fields, but since 2018 his main interest is Flutter. Aleksandr is a Flutter and Dart GDE and Head of Flutter Discipline in EPAM Systems."
     },
     {
+      "id": 14,
       "firstname": "Loic",
       "username": "MAGNETTE",
       "companyPosition": "Solution Architect",
@@ -225,6 +239,7 @@ export const speakers = {
       "description":""
     },
     {
+      "id": 15,
       "firstname": "Xavier",
       "username": "LESSAGE",
       "companyPosition": "Sr Researcher (Artificial Intelligence / Cloud Computing)",
@@ -241,6 +256,7 @@ export const speakers = {
       "description":""
     },
     {
+      "id": 16,
       "firstname": "Cedric",
       "username": "GATAY",
       "companyPosition": "Mobile and backend developer",
@@ -257,6 +273,7 @@ export const speakers = {
       "description":""
     },
     {
+      "id": 17,
       "firstname": "Sun",
       "username": "TAN",
       "companyPosition": "Senior Software Engineer",
@@ -273,6 +290,7 @@ export const speakers = {
       "description":""
     },
     {
+      "id": 18,
       "firstname": "Tugdual",
       "username": "GRALL",
       "companyPosition": "Solutions Engineer",
@@ -288,5 +306,28 @@ export const speakers = {
       "github": "https://github.com/tgrall",
       "description":""
     },
+    {
+      "id": 19,
+      "firstname": "Renaud",
+      "username": "TARNEC",
+      "companyPosition": "Consultant",
+      "company": "Freelance",
+      "GDE": "Oui",
+      "Charges": "OK",
+      "picturePath": "assets/images/Renaud Tarnec.jpeg",
+      "city": "Brussels",
+      "country": "Belgium",
+      "email": "renaudtarnec@gmail.com",
+      "twitter": "https://twitter.com/rtarnec",
+      "linkedIn": "https://www.linkedin.com/in/renaudtarnec/",
+      "github": "",
+      "description":"Renaud Tarnec est un Google Developers Expert pour Firebase, un développeur \"full-stack\" et un architecte d'applications web avec plus de 20 ans d'expérience, exclusivement dans des sociétés de service informatique.   \n" +
+        "Au fil des années, il a réalisé de nombreuses applications web comme des plateformes de travail collaboratif en B2C ou B2B, des sites transactionnels bancaires ou de bourse, ou encore des sites de commerce en ligne sur mesure.   ",
+      "description0":"Son expertise couvre toutes les étapes du cycle de développement: analyses fonctionnelle et technique, architecture, développement et tests, jusqu'à la mise en production et la maintenance.   ",
+      "description1":"Basé à Bruxelles, Renaud est consultant freelance et opère sa propre entreprise, rta Consulting, en servant des clients de taille et de domaines variés. Au cours de quatre dernières années, il a travaillé avec tous les services de Firebase, en particulier avec les Cloud Functions, Cloud Firestore ou Cloud Storage. ",
+      "description2":"Il est tellement convaincu par Firebase que, depuis, tous ses projets de développement d'application sont basés sur cette plateforme serverless!   \n" +
+        "Lorsqu'il n'est pas occupé sur un projet client, Renaud adore partager avec la communauté des développeurs sur Stack Overflow ou écrire des articles sur Firebase.",
+      "description3":"",
+    }
   ]
 }

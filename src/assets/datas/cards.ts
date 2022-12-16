@@ -71,6 +71,7 @@ export const cards = {
       "height": "60px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Few would dispute the importance of innovation, but the source of innovation is not commonly debated. In this talk, I challenge the conventional idea that innovation only comes from the private sector. Rather, I argue that the state is also an important enabler of innovation because it is capable of assuming large risks and providing patient funding, necessary for revolutionary innovations. To support this argument, I explore the track record of the state in supporting innovation for the last 100 years. I hope the talk encourages us, as developers, to think about our role in the economic system and where we choose to work.",
       "users": [
         {
           "firstname": "Neil",
@@ -111,6 +112,7 @@ export const cards = {
       "height": "365px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Web/desktop apps are different from Mobile because keyboard and mouse control is different from tapping on the screen.\nLet's remake a mobile app into a web/desktop one, and figure out how to properly manage focus and what a hover effect is.",
       "users": [
         {
           "firstname": "Alexander",
@@ -139,6 +141,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Kubernetes, ça \u00e0 l'air vraiment sympa, pour le scaling, la reproductibilit\u00e9 et tout et tout ... tout le monde en parle, et en plus c'est hype !\nAlors, c'est le moment de passer dans le cloud et de migrer nos applications Java vers Kubernetes !\n\nOui mais ... sauf que ... il y'a trop de fichiers YAML \u00e0 maintenir et nous detestons le YAML !\nEt en plus de maintenir l'application Java, il faut\n- \u00e9crire et maintenir des Dockerfiles\n- \u00e9crire et maintenir plein de fichiers YAML\n- configurer et g\u00e9rer la CI/CD pour le d\u00e9ploiement\n- etc.\n\nOui pendant ce talk nous allons souffrir \ud83d\udc7f  ... mais je vais vous tenir par la main et vous guider.\nEt c'est promis, vous sortirez de ce talk en sachant migrer vos applications Java dans Kubernetes en seulement 5 lignes de XML \ud83e\udd23 avec le projet JKube\n\n\n",
       "users": [
         {
           "firstname": "Sun",
@@ -167,6 +170,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Federated learning is a new paradigm that allows AI models to be trained in a decentralised way without having to share data. Only the model weights will be shared. This allows for reliable AI with respect to confidentiality and privacy.\n\nIn many sectors, and more particularly in the medical field, we are faced with \n\n- A limited amount of data available;\n- Strict regulations on data confidentiality;\n- A need for trust between partners\n\nWith federated learning, by aggreging model weights from different partners instead of sharing local data, it is possible to train a global model on a large amount of data without violating data protection laws.",
       "users": [
         {
           "firstname": "Xavier",
@@ -195,6 +199,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "We all have ever used the debugger in Android Studio, but it only works in debug mode (android:debuggable=\"true\"). What if we need to debug our application in production without the ability to reproduce the problem without the presence of logs?\nFrida allows you to instrument applications regardless of your environment. In this session, we'll tinker with the Bolt app with a fictional bug inside and figure out how to fix it.",
       "users": [
         {
           "firstname": "Alexander",
@@ -223,6 +228,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Nous utilisons tous les jours de la cryptographie, mais savons-nous ce qui se passe lorsque :\n\nnous nous connectons \u00e0 un site web en HTTPS\nnous acc\u00e9dons \u00e0 un serveur via SSH\nnous g\u00e9n\u00e9rons des hash pour des mots de passe, du cache-busting de ressources,...\nDans cette pr\u00e9sentation, vous verrez les diff\u00e9rents types d'algorithme et les principes fondamentaux derri\u00e8re les impl\u00e9mentations que nous utilisons pour assurer la s\u00e9curit\u00e9 des \u00e9changes. Ainsi vous n'h\u00e9siterez plus \u00e0 vous prononcer lors de discussion autour de ces sujets !\n\nEt tout ceci, sans le point qui fait le plus peur, les maths !",
       "users": [
         {
           "firstname": "Cedric",
@@ -251,6 +257,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Last week, you spend the last 2 days writing plenty of tests. Your code coverage was 100% so you thought you could safely leave on a weekend \u2708\ufe0f\ud83c\udfd6\ufe0f\n\nBut on Monday, your inbox is flooded with new bug reports.\nWhat happened!? What did you miss?\n\nIn this talk, we present Mutation testing which is a technique to evaluate the quality of tests beyond the number of lines tested. Mutation testing is based on creating a changed copy of the code to ensure a software test suite is able to detect the changes.\n\nHow do we create Mutation tests? How does it work? What are the advantages and drawbacks of Mutation tests?\nAll these questions will be answered with a demo in this talk.\n\nCome and discover what Mutation testing is and how can we implement it to ensure the quality of our test suites.\n",
       "users": [
         {
           "firstname": "Olivier",
@@ -295,6 +302,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "De plus en plus d'\u00e9quipes mettent en place les principes du DevOps avec comme objectif de d\u00e9ployer plus fr\u00e9quemment en production. Ces principes am\u00e8nent les Dev et Ops \u00e0 travailler ensemble avec les m\u00eames outils et m\u00e9thodes.\n\nIl est maintenant standard d\u2019avoir les builds, tests, et d\u00e9ploiements automatis\u00e9s, mais qu\u2019en est-il de la s\u00e9curit\u00e9?\n\nLa \u201cs\u00e9curit\u00e9 des applications\u201d est au mieux quelque chose qui arrive trop tard, ou le plus souvent inexistante. Les raisons mises en avant sont la complexit\u00e9, l\u2019impact sur la productivit\u00e9 qui ralentissent les d\u00e9ploiements; et on se dit aussi que les attaques n'arrivent qu'aux autres.\n\nIl est temps d\u2019appliquer les principes du DevOps \u00e0 la s\u00e9curit\u00e9, c\u2019est ce que promet le DevSecOps! \n\nAvec le DevOps, et sans \u00eatre un expert syst\u00e8me, vous arrivez \u00e0 coder votre infrastructure (Terraform, YAML, Kubernetes, Serverless, \u2026). Avec le DevSecOps, vous allez d\u00e9ployer vos applications tout en  vous assurant de la s\u00e9curit\u00e9 de votre code.\n\nDurant cette pr\u00e9sentation, qui s\u2019appuie sur des retours d'exp\u00e9rience et de nombreuses d\u00e9monstrations, vous verrez qu\u2019il est possible d\u2019int\u00e9grer la s\u00e9curit\u00e9 au cycle du d\u00e9veloppement sans impacter la productivit\u00e9. ",
       "users": [
         {
           "firstname": "Tugdual",
@@ -374,6 +382,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Most of us do code reviews very often if not daily. However, how can we tell whether we are good reviewers or not? Do we review a code as robots? Do we keep in mind that we are reviewing the code of someone who invested time and knowledge to write this code, and thus deserves to get respectful feedback?\n\nIn this talk, we present the code review best practices and we answer the following questions: What to look for in a code review? How can we write useful reviews?\n\nFurthermore, we explain the key tips for writing respectful and constructive code review feedback. To discover more about all these points and more, come and see our talk.\n\n",
       "users": [
         {
           "firstname": "Maha",
@@ -414,6 +423,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Sony, \u00dcber, Yahoo, Adult Friends finder, ces noms vous disent quelque chose? Vous utilisez peut-\u00eatre les services de ces entreprises. Elles ont aussi un point commun, elles ont subi une fuite de leurs donn\u00e9es utilisateurs. \nComment les hackers s\u2019y sont pris ? et surtout quelles le\u00e7ons peut-on en tirer pour le d\u00e9veloppement de nos applications?\n",
       "users": [
         {
           "firstname": "Adrien",
@@ -454,6 +464,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "L'environnement est au c\u0153ur des pr\u00e9occupations. Comment peut-on agir positivement sur la consommation d'\u00e9nergie g\u00e9n\u00e9r\u00e9es par nos d\u00e9veloppement lorsque l'on est d\u00e9veloppeur ou architecte? Quels sont les outils \u00e0 notre disposition, les bonnes pratiques et les pi\u00e8ges \u00e0 \u00e9viter? Comment mesurer notre impact?\n\nL'objectif de cette session est de vous permettre de prendre conscience qu'il est possible d'agir r\u00e9ellement sur l'impact de notre activit\u00e9 au quotidien, en prenant connaissance d'outils et de services dont vous disposez d\u00e9j\u00e0! \nSi en sortant de cette session vous int\u00e9grez certains de ces r\u00e9flexe au quotidien, vous aurez d\u00e9j\u00e0 gagn\u00e9 en plus d'avoir pass\u00e9 un bon moment :)",
       "users": [
         {
           "firstname": "Philippe",
@@ -509,6 +520,7 @@ export const cards = {
       "height": "150px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Lorsque l'on d\u00e9veloppe une application web il est primordial de respecter un certain niveau d'exigence sur l'UX. Cette pratique permet de satisfaire l'utilistateur mais \u00e9galement de s'assurer qu'il prenne plaisir \u00e0 utiliser notre application. \n\nEn 2020, Google annonce vouloir int\u00e9grer, l'ann\u00e9e suivante, dans ces outils de performances et de m\u00e9triques, trois nouveaux signaux  permettant de caract\u00e9riser et de mesurer cette exp\u00e9rience utilisateur.\n\nCes signaux sont regroup\u00e9s sous le nom de Core Web Vitals et sont les suivants:\n  - LCP (Largest Contentful Paint)\n  - CLS (Cumule Layout Shift)\n  - FID (First Input Delay)\n\n\nMais que signifie concr\u00e8tement ces m\u00e9triques ? Comment les d\u00e9boguer et les optimiser et ainsi rendre notre application agr\u00e9able \u00e0 utiliser ?\n\nA travers ce talk, je r\u00e9pondrais \u00e0 ces questions et pr\u00e9senterai \u00e9galement un quati\u00e8me signal encore en cours d'exp\u00e9riementation: INP (Interaction to Next Point)",
       "users": [
         {
           "firstname": "Nicolas",
@@ -537,6 +549,7 @@ export const cards = {
       "height": "150px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Using the same language for both frontend and backend makes development faster and allows team members to take the role of a full-stack developer more easily. This talk will cover how to build your backend in Dart and Serverpod and how you communicate with your backend from Flutter.\n\nServerpod is a new backend framework written for the Flutter community. It generates your client-side code by analyzing your server. It has built-in support for everything you need to write your server, from authentication and file uploads to typed database access and easy deployments.\n\nAfter attending this talk, you will be ready to build your first server with Dart and Serverpod.",
       "users": [
         {
           "firstname": "Viktor",
@@ -577,6 +590,7 @@ export const cards = {
       "height": "140px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Le visual testing est \u00e0 la fois la facilit\u00e9 d\u2019un regard sur nos applications et la complexit\u00e9 \u00e0 projeter ce regard au bon endroit, au bon moment.\n\nLes fonctionnalit\u00e9s s\u2019enrichissent, se conditionnent et nous perdons la visibilit\u00e9 sur un composant, dans sa plus simple repr\u00e9sentation.\n\nAlors qu\u2019il y avait encore tant \u00e0 faire pour am\u00e9liorer notre exp\u00e9rience d\u00e9veloppeur dans ce sens, 2022 a vu l\u2019\u00e9mergence de nouvelles solutions qui r\u00e9volutionnent aujourd\u2019hui nos pratiques et nos usages.",
       "users": [
         {
           "firstname": "Gerome",
@@ -605,6 +619,7 @@ export const cards = {
       "height": "140px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Accessibility is the design of applications so as to be usable by people with disabilities. If you want to make an app as useful for many people as possible including people with visual, mobility, learning, or hearing disabilities, you need to implement accessibility elements. In this talk, you\u2019ll learn which accessibility features does Flutter support, and how to improve the accessibility of your Flutter applications to make them usable for everyone.",
       "users": [
         {
           "firstname": "Aleksandr",
@@ -633,6 +648,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Pour beaucoup de d\u00e9veloppeurs , l'open source ce sont des frameworks ou des libraries qui apportent des fonctionnalit\u00e9s.\nOn parle peu de l'open source dans la s\u00e9curit\u00e9 et quand on en parle c'est pour dire qu'il y a des vuln\u00e9rabilit\u00e9s.\nMais dans le domaine de la s\u00e9curit\u00e9, l'open source fait partie int\u00e9grante de la blue team comme de la red team. \nDans cette pr\u00e9sentation, je vais vous pr\u00e9senter les grandes initiatives open source orient\u00e9es s\u00e9curit\u00e9 pour vous aider \u00e0 s\u00e9curiser vos d\u00e9veloppements. De l'Open source security foundation \u00e0 L'OWASP en passant par MITRE et pleins d'autres. ",
       "users": [
         {
           "firstname": "Adrien",
@@ -673,6 +689,7 @@ export const cards = {
       "height": "420px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Pulumi et l'AWS Cloud Developement Kit (AWS CDK) ont ouvert une nouvelle \u00e8re pour l'infrastructure-as-code. Jusqu\u2019\u00e0 maintenant, nous utilisions principalement des langages d\u00e9claratifs pour d\u00e9crire les ressources d'infrastructure dont nous avions besoin. Cela permet d'automatiser compl\u00e8tement le d\u00e9ploiement de l'infrastructure et de rendre celui-ci r\u00e9p\u00e9table de mani\u00e8re consistante \u00e0 l'envie. Cependant, tester ces mod\u00e8les d\u2019infrastructure sans d\u00e9ployer s\u2019av\u00e8re complexe, les d\u00e9composer en module r\u00e9utilisable est fastidieux et l\u2019auto-compl\u00e9tion dans les IDE est pauvre.\n\nPulumi et AWS CDK am\u00e8ne \u00e0 l\u2019infrastructure-as-code \u00e0 un nouveau niveau en permettant aux d\u00e9veloppeurs d\u2019utiliser leur langage de programmation favori pour d\u00e9velopper, tester et d\u00e9ployer leur infrastructure. Ils peuvent exploiter toute la puissance d\u2019abstraction de leur langage, cr\u00e9er facilement des packages r\u00e9utilisables et b\u00e9n\u00e9ficier d\u2019une auto-compl\u00e9tion performante.\n\nDans ce workshop, vous allez coder votre premi\u00e8re infrastructure-as-code avec un des 4 langages propos\u00e9s : TypeScript, Java, Python ou C#.",
       "users": [
         {
           "firstname": "Antoine",
@@ -716,6 +733,7 @@ export const cards = {
       "height": "130px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Angular 14 est sorti en juin 2022, et cette version annonce que les modules Angular deviennent optionnels.\n\nWhaooouuu, jusque maintenant les modules \u00e9taient le concepts de base d'une application Angular. Toute l'architecture d'une application Angular gravitaient autour de ce concept. En r\u00e9sum\u00e9 les modules \u00e9taient une pi\u00e8ce central de nos applications.\n\nDepuis la sortie de la version 14 d'Angular, ce sont les composants qui occupent ce r\u00f4le. Ces composants sp\u00e9cifiquent sont appel\u00e9s: \"Standalone Components\"\n\nCependant cette version apporte bien d'autres nouveaut\u00e9s, toute tr\u00e8s interessantes comme:\n- la composition par injection\n- les formulaires typ\u00e9s\n- une nouvelle fa\u00e7on de g\u00e9rer les titres de nos SPA\n\nComment ces nouveaut\u00e9s vont changer notre fa\u00e7on d'architecturer nos applications ? Comment les int\u00e9grer dans nos applications exisantes ? Les modules vont-ils devenir d\u00e9precated ? \n\nL'objectif de ce talk est d'expliquer tous les concepts de cette nouvelle version et de donner des uses cases sur quand et comment les utiliser et les int\u00e9grer dans des applications existantes",
       "users": [
         {
           "firstname": "Nicolas",
@@ -744,6 +762,7 @@ export const cards = {
       "height": "130px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Elles s'appellent CosmosDB sur Azure, DynamoDB sur AWS ou encore DataStore c\u00f4t\u00e9 GCP. \n\nCe sont des bases de donn\u00e9es serverless, cloud natives et con\u00e7use pour \u00eatre utilis\u00e9es comme un service et r\u00e9volutionnent la fa\u00e7on de concevoir des application hautement distribu\u00e9es et scalables!\n\nMais attention \u00e0 l'apparente simplicit\u00e9 offerte par leurs APIs: vous entrez dans un monde \u00e0 part ou les concepts que vous croyez connaitre n'ont plus court et ou la vraie puissance se r\u00e9v\u00e8le avec la bonne compr\u00e9hension des concepts.\n\nDans cette session; nous irons \u00e0 la d\u00e9couverte des bonnes pratiques et des pi\u00e8ges \u00e0 \u00e9viter afin de tirer le meilleur parti de ces solutions. Nous verrons, avec un cas concret, comment en comprenant la structuration interne de ces bases de donn\u00e9es, nous serons capable d'utiliser toute la puissance \u00e0 notre disposition.\n\nCa sera \u00e9galement l'occasion d'introduire de nouveaux paradigmes d'architecture rendus possible gr\u00e2ce \u00e0 ces nouvelles bases de donn\u00e9es et dans quel cas choisir de partir ou non sur ce type de solution par rapport \u00e0 tout l'\u00e9ventail de solutions \u00e0 notre disposition.",
       "users": [
         {
           "firstname": "Philippe",
@@ -784,6 +803,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Depuis HTTP 1.1, nous avons acc\u00e8s au header Cache-Control pour g\u00e9rer tout le cheminement de la m\u00e9canique de cache. Nous pouvons avoir une r\u00e9ponse consid\u00e9r\u00e9e comme pouvant \u00eatre servie malgr\u00e9 son \u00e9tat consid\u00e9r\u00e9 comme n'\u00e9tant pas assez frais. Obtenir une r\u00e9ponse moins fra\u00eeche si une erreur lors du contact avec le serveur survient ou dire de ne pas servir la r\u00e9ponse cach\u00e9e si elle est stock\u00e9e depuis plus de X secondes. Nous avons vu aussi l'apparition du header Age en accord avec la directive TTL dans des en-t\u00eates de r\u00e9ponse afin de donner l'information \u00e0 l'utilisateur depuis quand et pour encore combien de secondes la r\u00e9ponse sera conserv\u00e9e en cache. Il y a eu aussi le retrait des headers pr\u00e9fix\u00e9s par X- dans la specification au profit des standards. Quelques compagnies on essay\u00e9 d'ajouter \u00e0 la norme des headers et des comportements pour les serveurs de bord mais cela sans succ\u00e8s. Lors du d\u00e9veloppement HTTP/2 et HTTP/3, il y a eu \u00e9norm\u00e9ment de RFC soumises pour ajouter de nouveaux standards pour g\u00e9rer le cache HTTP, grouper les cl\u00e9s de cache, ajouter de nouveaux headers. Voyons ensemble les am\u00e9liorations et les nouvelles fonctionnalit\u00e9s qui peuvent \u00eatre utilis\u00e9es pour g\u00e9rer le cache HTTP.",
       "users": [
         {
           "firstname": "Sylvain",
@@ -812,6 +832,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "GraalVM apporte la capacité de réaliser des compilations natives pour les applications basées sur les technologies Java. Ce processus permet de les rendre plus légères et moins coûteuses à déployer dans le cloud. Les applications démarreront de manière quasi instantanée et en utilisant moins de mémoire.\n Au travers de cette présentation, vous découvrirez comment profiter de cette nouvelle manière d’exécuter vos applications Java mais également d’en connaître les limitations.",
       "users": [
         {
           "firstname": "Loic",
@@ -852,6 +873,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Il y a un peu plus d 'un an, Evan YOU monte sur la sc\u00e8ne du Vue Js Amsterdam avec plein de nouveaut\u00e9s plus excitantes les unes que les autres concernant Vue 3\n- une nouvelle API appel\u00e9e la composition API\n- une gestion simplif\u00e9e des composants asynchrones\n- le support de typescript nativement\n\nCes nouveaut\u00e9s \u00e9poustouflantes remettent en cause la fa\u00e7on dont nous avons pu concevoir nos pr\u00e9c\u00e9dentes applications en Vue 2 et ont aussi eu un impact non n\u00e9gligeable sur l'\u00e9cosyst\u00e8me Vue dans sa g\u00e9n\u00e9ralit\u00e9.\n\nC'est pourquoi des librairies comme Vue-Router, Vuex ou encore Vee-validate ont d\u00fb modifier leur code source pour supporter  ces nouvelles API. \n\nQuelles sont ces nouveaut\u00e9s et comment s'utilisent-elles ? Comment se sont adapt\u00e9s ces librairies ? \n\nTout vous sera d\u00e9voil\u00e9 \u00e0 travers un voyage scolaire :) \n\n",
       "users": [
         {
           "firstname": "Nicolas",
@@ -880,6 +902,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "I discovered Go language but didn\u2019t have any time to follow multiples tutorials to learn it. But one day I discovered Tr\u00e6fik reverse-proxy project when I wanted to switch my infrastructure into fully dockerized one. I\u2019m Tr\u00e6fik user since v1.4 but after many months using it I encountered an issue : there were no caching system in this reverse-proxy. I scrolled over the internet to know if any solution exists but nothing appears.\n\nThen I decided to write my own Tr\u00e6fik cache system, but the main question was \u201cWhich language?\u201d\n- PHP ? Nah.\n- Nodejs ? What a joke !\n- C++ ? I didn\u2019t learn this language at school and it\u2019s really insane to learn.\n\nThen I was on Tr\u00e6fik github repository when I decided to write it in Go. Another good point: that\u2019s compatible with docker integration.\n\nSo I started the project and called it Souin\nLet's see together how I bring it up from code to deployment.",
       "users": [
         {
           "firstname": "Sylvain",
@@ -920,6 +943,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Embarquez avec moi pour profiter du panorama magnifique propos\u00e9 par les lieux avant de d\u00e9couvrir ses tr\u00e9sors cach\u00e9s !\n\nLe web devient de plus en plus s\u00e9curitaire, il est possible de prot\u00e9ger plus efficacement nos APIs en utilisant les bons headers.\n\nCependant, savez-vous r\u00e9ellement ce qui se cache derri\u00e8re ce mal aim\u00e9 CORS ?\n\nDans ce sujet nous allons aborder l'origine de la technique et expliquer comment tout ceci fonctionne pour que vous puissiez devenir le chief-CORS-officer de l'\u00e9quipe !",
       "users": [
         {
           "firstname": "Cedric",
@@ -965,7 +989,7 @@ export const cards = {
     },
     {
       "id": "43",
-      "description": "Cloud functions width firebase",
+      "description": "Cloud Functions for Firebase",
       "heure": "17H20",
       "isTrackOne": false,
       "isTrackTwo": false,
@@ -973,6 +997,7 @@ export const cards = {
       "height": "80px",
       "color": "#ffd180",
       "isCard": true,
+      "abstract": "Après une brève présentation des principaux services de Firebase dédiés au développement d'apps, nous plongerons dans une analyse détaillée des Cloud Functions pour Firebase qui couvrira:\n- Le 'quoi' (capacités, types de trigger, ...);\n- Le 'quand' (logique métier dans le back-end, manipulation de données, intégrations avec GCP ou des micro-services, ...);\n- Et finalement, le 'comment' ('best-practices', gestion du cycle de vie, options de déploiement, ...);\nLa présentation mixe de la théorie, des extraits de code et des démos 'en live'.",
       "users": [
         {
           "firstname": "Renaud",

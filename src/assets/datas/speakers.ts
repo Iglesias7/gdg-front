@@ -321,7 +321,13 @@ export const speakers = {
       "twitter": "https://twitter.com/rtarnec",
       "linkedIn": "https://www.linkedin.com/in/renaudtarnec/",
       "github": "",
-      "description":""
+      "description":"Renaud Tarnec est un Google Developers Expert pour Firebase, un développeur \"full-stack\" et un architecte d'applications web avec plus de 20 ans d'expérience, exclusivement dans des sociétés de service informatique.   \n" +
+        "Au fil des années, il a réalisé de nombreuses applications web comme des plateformes de travail collaboratif en B2C ou B2B, des sites transactionnels bancaires ou de bourse, ou encore des sites de commerce en ligne sur mesure.   ",
+      "description0":"Son expertise couvre toutes les étapes du cycle de développement: analyses fonctionnelle et technique, architecture, développement et tests, jusqu'à la mise en production et la maintenance.   ",
+      "description1":"Basé à Bruxelles, Renaud est consultant freelance et opère sa propre entreprise, rta Consulting, en servant des clients de taille et de domaines variés. Au cours de quatre dernières années, il a travaillé avec tous les services de Firebase, en particulier avec les Cloud Functions, Cloud Firestore ou Cloud Storage. ",
+      "description2":"Il est tellement convaincu par Firebase que, depuis, tous ses projets de développement d'application sont basés sur cette plateforme serverless!   \n" +
+        "Lorsqu'il n'est pas occupé sur un projet client, Renaud adore partager avec la communauté des développeurs sur Stack Overflow ou écrire des articles sur Firebase.",
+      "description3":"",
     }
   ]
 }

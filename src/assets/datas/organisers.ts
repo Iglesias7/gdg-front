@@ -41,7 +41,7 @@ export const organisers = {
       "twitter": NaN,
       "linkedln": "https://www.linkedin.com/in/olivier-d%C3%A9sir%C3%A9-muhimpundu/",
       "github": NaN,
-      "picturePath": "assets/teams-images/Olivier-Désiré Muhimpundu.jpeg",
+      "picturePath": "assets/teams-images/Olivier.jpeg",
       "description":""
     },
     {

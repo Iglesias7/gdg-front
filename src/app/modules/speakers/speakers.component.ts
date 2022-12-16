@@ -29,9 +29,9 @@ export class SpeakersComponent {
       this.path = values[0].path;
     });
 
-    if(this.path === "teams") {
+    if (this.path === "teams") {
       this.title = "Teams";
-      this.description = "Hear from the Google Devolopers Organizer.";
+      this.description = "The amazing team of Organisers.";
       this.speakers = this.userService.findAllTeams();
     } else {
       this.title = "Speakers";
@@ -40,7 +40,6 @@ export class SpeakersComponent {
       this.description2 = "partners.";
       this.speakers = this.userService.findAllSpeakers();
     }
-
   }
 
   getpicturePath(tempPicturePath:any): string {
